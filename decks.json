@@ -1,0 +1,4095 @@
+{
+ "version": "2026-10-16",
+ "promos": [
+  {
+   "key": "promo-1",
+   "name": "Promo 1",
+   "heroes": [
+    66,
+    67,
+    68
+   ]
+  },
+  {
+   "key": "promo-2",
+   "name": "Promo 2",
+   "heroes": [
+    71,
+    72,
+    70
+   ]
+  },
+  {
+   "key": "promo-3",
+   "name": "Promo 3",
+   "heroes": [
+    22,
+    69,
+    12,
+    65,
+    64
+   ]
+  },
+  {
+   "key": "promo-4",
+   "name": "Promo 4",
+   "heroes": [
+    85,
+    91,
+    97,
+    102
+   ]
+  }
+ ],
+ "decks": [
+  {
+   "slug": "solar-sentinels",
+   "name": "Solar Sentinels",
+   "bossLabel": "Boss",
+   "heroes": [
+    {
+     "siteId": 1,
+     "name": "Astral Scout Raven",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 2,
+     "name": "Beckett Sun-Forger",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 3,
+     "name": "Gal'Had the Lancer",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 4,
+     "name": "P.I.K.E Master Orlo",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 5,
+     "name": "Stellar Blade Isolde",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 6,
+     "name": "Valkyrie, Mk.7",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 10,
+     "name": "Nugget",
+     "group": "Universal — Too Many Bones"
+    },
+    {
+     "siteId": 12,
+     "name": "Riffle",
+     "group": "Universal — Too Many Bones"
+    },
+    {
+     "siteId": 15,
+     "name": "Decimus",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 22,
+     "name": "Pandora",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 19,
+     "name": "Sea Strider",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 20,
+     "name": "Stygiana",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 23,
+     "name": "Thumbelina / Maya",
+     "group": "Universal — Tanglewoods: Red"
+    },
+    {
+     "siteId": 29,
+     "name": "The Fool / The Flying Ship",
+     "group": "Universal — Tanglewoods: Gold"
+    },
+    {
+     "siteId": 33,
+     "name": "Snow White / The Fairest",
+     "group": "Universal — Tanglewoods: White"
+    },
+    {
+     "siteId": 41,
+     "name": "Jack my Hedgehog",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 40,
+     "name": "Sister of Ravens",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 42,
+     "name": "The Frog Prince",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 39,
+     "name": "The Giant",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 50,
+     "name": "The Blue Fairy / The Fairy with the Turquoise Hair",
+     "group": "Universal — Tanglewoods: Rose"
+    },
+    {
+     "siteId": 60,
+     "name": "Kroob",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 65,
+     "name": "Londil",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 64,
+     "name": "Flintlock",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 61,
+     "name": "Lecheez",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 62,
+     "name": "Lostomire",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 63,
+     "name": "Slame",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 109,
+     "name": "Android",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 69,
+     "name": "Catonaut",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 102,
+     "name": "Laika",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 110,
+     "name": "Scientist",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 82,
+     "name": "Ailei",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 83,
+     "name": "Arev",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 84,
+     "name": "Caolin",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 89,
+     "name": "Gambler",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 95,
+     "name": "Gambler - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 90,
+     "name": "Specialist",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 96,
+     "name": "Specialist - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 91,
+     "name": "Thorn Knight",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 97,
+     "name": "Thorn Knight - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 67,
+     "name": "Jack",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 68,
+     "name": "Stilts",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 66,
+     "name": "Tink",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 71,
+     "name": "Godfather Death / Old Rinkrank",
+     "group": "Universal — Promo 3"
+    },
+    {
+     "siteId": 70,
+     "name": "Mischievous Fairy / Malevolent Fairy",
+     "group": "Universal — Promo 3"
+    },
+    {
+     "siteId": 72,
+     "name": "Wicked Witch",
+     "group": "Universal — Promo 3"
+    }
+   ],
+   "bosses": [
+    {
+     "siteId": 1,
+     "name": "The Alpha Beast",
+     "siteName": "The Alpha Beast"
+    },
+    {
+     "siteId": 2,
+     "name": "The Hive Monarch",
+     "siteName": "The Hive Monarch"
+    },
+    {
+     "siteId": 3,
+     "name": "The Mother Spore",
+     "siteName": "The Mother Spore"
+    },
+    {
+     "siteId": 4,
+     "name": "The Swarm Lord",
+     "siteName": "The Swarm Lord"
+    },
+    {
+     "siteId": 5,
+     "name": "Unknown",
+     "siteName": "unknown"
+    }
+   ],
+   "ranks": [
+    {
+     "siteId": 1,
+     "value": 1
+    },
+    {
+     "siteId": 2,
+     "value": 2
+    },
+    {
+     "siteId": 3,
+     "value": 3
+    },
+    {
+     "siteId": 4,
+     "value": 4
+    },
+    {
+     "siteId": 5,
+     "value": 5
+    },
+    {
+     "siteId": 87,
+     "value": 6
+    }
+   ],
+   "outcomes": [
+    {
+     "siteId": 1,
+     "label": "Victory",
+     "siteLabel": "Victory!",
+     "isVictory": true
+    },
+    {
+     "siteId": 2,
+     "label": "Defeated before boss",
+     "siteLabel": "I was defeated before reaching the boss encounter.",
+     "isVictory": false
+    },
+    {
+     "siteId": 3,
+     "label": "Defeated during boss",
+     "siteLabel": "I was defeated during the boss encounter.",
+     "isVictory": false
+    }
+   ],
+   "boxHeroes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "slug": "too-many-bones",
+   "name": "Too Many Bones",
+   "bossLabel": "Tyrant",
+   "heroes": [
+    {
+     "siteId": 7,
+     "name": "Duster",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 8,
+     "name": "Figment",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 9,
+     "name": "Gasket",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 10,
+     "name": "Nugget",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 11,
+     "name": "Patches",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 12,
+     "name": "Riffle",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 2,
+     "name": "Beckett Sun-Forger",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 3,
+     "name": "Gal'Had the Lancer",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 5,
+     "name": "Stellar Blade Isolde",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 6,
+     "name": "Valkyrie, Mk.7",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 15,
+     "name": "Decimus",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 22,
+     "name": "Pandora",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 19,
+     "name": "Sea Strider",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 20,
+     "name": "Stygiana",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 23,
+     "name": "Thumbelina / Maya",
+     "group": "Universal — Tanglewoods: Red"
+    },
+    {
+     "siteId": 29,
+     "name": "The Fool / The Flying Ship",
+     "group": "Universal — Tanglewoods: Gold"
+    },
+    {
+     "siteId": 33,
+     "name": "Snow White / The Fairest",
+     "group": "Universal — Tanglewoods: White"
+    },
+    {
+     "siteId": 41,
+     "name": "Jack my Hedgehog",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 40,
+     "name": "Sister of Ravens",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 42,
+     "name": "The Frog Prince",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 39,
+     "name": "The Giant",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 50,
+     "name": "The Blue Fairy / The Fairy with the Turquoise Hair",
+     "group": "Universal — Tanglewoods: Rose"
+    },
+    {
+     "siteId": 60,
+     "name": "Kroob",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 65,
+     "name": "Londil",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 64,
+     "name": "Flintlock",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 61,
+     "name": "Lecheez",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 62,
+     "name": "Lostomire",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 63,
+     "name": "Slame",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 109,
+     "name": "Android",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 69,
+     "name": "Catonaut",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 102,
+     "name": "Laika",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 110,
+     "name": "Scientist",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 82,
+     "name": "Ailei",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 83,
+     "name": "Arev",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 84,
+     "name": "Caolin",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 89,
+     "name": "Gambler",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 95,
+     "name": "Gambler - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 90,
+     "name": "Specialist",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 96,
+     "name": "Specialist - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 91,
+     "name": "Thorn Knight",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 97,
+     "name": "Thorn Knight - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 67,
+     "name": "Jack",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 68,
+     "name": "Stilts",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 66,
+     "name": "Tink",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 71,
+     "name": "Godfather Death / Old Rinkrank",
+     "group": "Universal — Promo 3"
+    },
+    {
+     "siteId": 70,
+     "name": "Mischievous Fairy / Malevolent Fairy",
+     "group": "Universal — Promo 3"
+    },
+    {
+     "siteId": 72,
+     "name": "Wicked Witch",
+     "group": "Universal — Promo 3"
+    }
+   ],
+   "bosses": [
+    {
+     "siteId": 8,
+     "name": "Barnacle",
+     "siteName": "Barnacle"
+    },
+    {
+     "siteId": 9,
+     "name": "Cinder",
+     "siteName": "Cinder"
+    },
+    {
+     "siteId": 6,
+     "name": "Nom",
+     "siteName": "Nom"
+    },
+    {
+     "siteId": 7,
+     "name": "Oxide",
+     "siteName": "Oxide"
+    }
+   ],
+   "ranks": [
+    {
+     "siteId": 6,
+     "value": 1
+    },
+    {
+     "siteId": 7,
+     "value": 2
+    },
+    {
+     "siteId": 8,
+     "value": 3
+    },
+    {
+     "siteId": 9,
+     "value": 4
+    },
+    {
+     "siteId": 10,
+     "value": 5
+    }
+   ],
+   "outcomes": [
+    {
+     "siteId": 4,
+     "label": "Victory",
+     "siteLabel": "Victory!",
+     "isVictory": true
+    },
+    {
+     "siteId": 6,
+     "label": "Defeated before boss",
+     "siteLabel": "I was defeated before reaching the boss encounter.",
+     "isVictory": false
+    },
+    {
+     "siteId": 5,
+     "label": "Defeated during boss",
+     "siteLabel": "I was defeated during the boss encounter.",
+     "isVictory": false
+    }
+   ],
+   "boxHeroes": [
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "slug": "hoplomachus-victorum",
+   "name": "Hoplomachus: Victorum",
+   "bossLabel": "Scion",
+   "heroes": [
+    {
+     "siteId": 13,
+     "name": "Aprilis",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 14,
+     "name": "Bingqing",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 15,
+     "name": "Decimus",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 16,
+     "name": "Krakenlance",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 17,
+     "name": "Nox",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 22,
+     "name": "Pandora",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 19,
+     "name": "Sea Strider",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 20,
+     "name": "Stygiana",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 18,
+     "name": "The Parthian",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 21,
+     "name": "Virago",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 2,
+     "name": "Beckett Sun-Forger",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 3,
+     "name": "Gal'Had the Lancer",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 5,
+     "name": "Stellar Blade Isolde",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 6,
+     "name": "Valkyrie, Mk.7",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 10,
+     "name": "Nugget",
+     "group": "Universal — Too Many Bones"
+    },
+    {
+     "siteId": 12,
+     "name": "Riffle",
+     "group": "Universal — Too Many Bones"
+    },
+    {
+     "siteId": 23,
+     "name": "Thumbelina / Maya",
+     "group": "Universal — Tanglewoods: Red"
+    },
+    {
+     "siteId": 29,
+     "name": "The Fool / The Flying Ship",
+     "group": "Universal — Tanglewoods: Gold"
+    },
+    {
+     "siteId": 33,
+     "name": "Snow White / The Fairest",
+     "group": "Universal — Tanglewoods: White"
+    },
+    {
+     "siteId": 41,
+     "name": "Jack my Hedgehog",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 40,
+     "name": "Sister of Ravens",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 42,
+     "name": "The Frog Prince",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 39,
+     "name": "The Giant",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 50,
+     "name": "The Blue Fairy / The Fairy with the Turquoise Hair",
+     "group": "Universal — Tanglewoods: Rose"
+    },
+    {
+     "siteId": 60,
+     "name": "Kroob",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 65,
+     "name": "Londil",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 64,
+     "name": "Flintlock",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 61,
+     "name": "Lecheez",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 62,
+     "name": "Lostomire",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 63,
+     "name": "Slame",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 109,
+     "name": "Android",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 69,
+     "name": "Catonaut",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 102,
+     "name": "Laika",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 110,
+     "name": "Scientist",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 82,
+     "name": "Ailei",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 83,
+     "name": "Arev",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 84,
+     "name": "Caolin",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 89,
+     "name": "Gambler",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 95,
+     "name": "Gambler - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 90,
+     "name": "Specialist",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 96,
+     "name": "Specialist - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 91,
+     "name": "Thorn Knight",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 97,
+     "name": "Thorn Knight - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 67,
+     "name": "Jack",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 68,
+     "name": "Stilts",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 66,
+     "name": "Tink",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 71,
+     "name": "Godfather Death / Old Rinkrank",
+     "group": "Universal — Promo 3"
+    },
+    {
+     "siteId": 70,
+     "name": "Mischievous Fairy / Malevolent Fairy",
+     "group": "Universal — Promo 3"
+    },
+    {
+     "siteId": 72,
+     "name": "Wicked Witch",
+     "group": "Universal — Promo 3"
+    }
+   ],
+   "bosses": [
+    {
+     "siteId": 10,
+     "name": "Camazotz",
+     "siteName": "Camazotz"
+    },
+    {
+     "siteId": 11,
+     "name": "Coalemus",
+     "siteName": "Coalemus"
+    },
+    {
+     "siteId": 12,
+     "name": "Div-e Sepid",
+     "siteName": "Div-e Sepid"
+    },
+    {
+     "siteId": 13,
+     "name": "Hydra",
+     "siteName": "Hydra"
+    },
+    {
+     "siteId": 14,
+     "name": "Itzam Cab Ain",
+     "siteName": "Itzam Cab Ain"
+    },
+    {
+     "siteId": 15,
+     "name": "Kalliope",
+     "siteName": "Kalliope"
+    },
+    {
+     "siteId": 16,
+     "name": "Pluto",
+     "siteName": "Pluto"
+    },
+    {
+     "siteId": 17,
+     "name": "Taotie",
+     "siteName": "Taotie"
+    },
+    {
+     "siteId": 18,
+     "name": "Zahkak",
+     "siteName": "Zahkak"
+    }
+   ],
+   "ranks": [
+    {
+     "siteId": 11,
+     "value": 1
+    },
+    {
+     "siteId": 12,
+     "value": 2
+    },
+    {
+     "siteId": 13,
+     "value": 3
+    },
+    {
+     "siteId": 14,
+     "value": 4
+    },
+    {
+     "siteId": 15,
+     "value": 5
+    }
+   ],
+   "outcomes": [
+    {
+     "siteId": 7,
+     "label": "Victory",
+     "siteLabel": "Victory!",
+     "isVictory": true
+    },
+    {
+     "siteId": 8,
+     "label": "Defeated before boss",
+     "siteLabel": "I was defeated before reaching the boss encounter.",
+     "isVictory": false
+    },
+    {
+     "siteId": 9,
+     "label": "Defeated during boss",
+     "siteLabel": "I was defeated during the boss encounter.",
+     "isVictory": false
+    }
+   ],
+   "boxHeroes": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    19,
+    20,
+    18,
+    21
+   ]
+  },
+  {
+   "slug": "cloudspire",
+   "name": "Cloudspire",
+   "bossLabel": "Boss",
+   "heroes": [
+    {
+     "siteId": 51,
+     "name": "Bydra Graam",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 52,
+     "name": "Captain Tinbeard",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 53,
+     "name": "Echri",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 54,
+     "name": "Fission",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 55,
+     "name": "General Eko",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 56,
+     "name": "Jaelana Nestor",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 57,
+     "name": "Kram the Mighty",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 58,
+     "name": "Netourut",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 59,
+     "name": "Wyvankaye",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 60,
+     "name": "Kroob",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 65,
+     "name": "Londil",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 64,
+     "name": "Flintlock",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 61,
+     "name": "Lecheez",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 62,
+     "name": "Lostomire",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 63,
+     "name": "Slame",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 2,
+     "name": "Beckett Sun-Forger",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 3,
+     "name": "Gal'Had the Lancer",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 5,
+     "name": "Stellar Blade Isolde",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 6,
+     "name": "Valkyrie, Mk.7",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 10,
+     "name": "Nugget",
+     "group": "Universal — Too Many Bones"
+    },
+    {
+     "siteId": 12,
+     "name": "Riffle",
+     "group": "Universal — Too Many Bones"
+    },
+    {
+     "siteId": 15,
+     "name": "Decimus",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 22,
+     "name": "Pandora",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 19,
+     "name": "Sea Strider",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 20,
+     "name": "Stygiana",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 23,
+     "name": "Thumbelina / Maya",
+     "group": "Universal — Tanglewoods: Red"
+    },
+    {
+     "siteId": 29,
+     "name": "The Fool / The Flying Ship",
+     "group": "Universal — Tanglewoods: Gold"
+    },
+    {
+     "siteId": 33,
+     "name": "Snow White / The Fairest",
+     "group": "Universal — Tanglewoods: White"
+    },
+    {
+     "siteId": 41,
+     "name": "Jack my Hedgehog",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 40,
+     "name": "Sister of Ravens",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 42,
+     "name": "The Frog Prince",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 39,
+     "name": "The Giant",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 50,
+     "name": "The Blue Fairy / The Fairy with the Turquoise Hair",
+     "group": "Universal — Tanglewoods: Rose"
+    },
+    {
+     "siteId": 109,
+     "name": "Android",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 69,
+     "name": "Catonaut",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 102,
+     "name": "Laika",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 110,
+     "name": "Scientist",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 82,
+     "name": "Ailei",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 83,
+     "name": "Arev",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 84,
+     "name": "Caolin",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 89,
+     "name": "Gambler",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 95,
+     "name": "Gambler - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 90,
+     "name": "Specialist",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 96,
+     "name": "Specialist - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 91,
+     "name": "Thorn Knight",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 97,
+     "name": "Thorn Knight - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 67,
+     "name": "Jack",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 68,
+     "name": "Stilts",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 66,
+     "name": "Tink",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 71,
+     "name": "Godfather Death / Old Rinkrank",
+     "group": "Universal — Promo 3"
+    },
+    {
+     "siteId": 70,
+     "name": "Mischievous Fairy / Malevolent Fairy",
+     "group": "Universal — Promo 3"
+    },
+    {
+     "siteId": 72,
+     "name": "Wicked Witch",
+     "group": "Universal — Promo 3"
+    }
+   ],
+   "bosses": [
+    {
+     "siteId": 25,
+     "name": "Grafted Bydra Graam",
+     "siteName": "Grafted Bydra Graam"
+    },
+    {
+     "siteId": 26,
+     "name": "Grafted Captain Tinbeard",
+     "siteName": "Grafted Captain Tinbeard"
+    },
+    {
+     "siteId": 27,
+     "name": "Grafted Echri",
+     "siteName": "Grafted Echri"
+    },
+    {
+     "siteId": 28,
+     "name": "Grafted Fission",
+     "siteName": "Grafted Fission"
+    },
+    {
+     "siteId": 29,
+     "name": "Grafted General Eko",
+     "siteName": "Grafted General Eko"
+    },
+    {
+     "siteId": 30,
+     "name": "Grafted Jaelana Nestor",
+     "siteName": "Grafted Jaelana Nestor"
+    },
+    {
+     "siteId": 31,
+     "name": "Grafted Kram the Mighty",
+     "siteName": "Grafted Kram the Mighty"
+    },
+    {
+     "siteId": 32,
+     "name": "Grafted Netourut",
+     "siteName": "Grafted Netourut"
+    },
+    {
+     "siteId": 33,
+     "name": "Grafted Wyvankaye",
+     "siteName": "Grafted Wyvankaye"
+    }
+   ],
+   "ranks": [
+    {
+     "siteId": 64,
+     "value": 1
+    },
+    {
+     "siteId": 65,
+     "value": 2
+    },
+    {
+     "siteId": 66,
+     "value": 3
+    },
+    {
+     "siteId": 67,
+     "value": 4
+    }
+   ],
+   "outcomes": [
+    {
+     "siteId": 26,
+     "label": "Victory",
+     "siteLabel": "Victory!",
+     "isVictory": true
+    },
+    {
+     "siteId": 27,
+     "label": "Defeated before final boss",
+     "siteLabel": "I was defeated before the final boss was activated.",
+     "isVictory": false
+    },
+    {
+     "siteId": 28,
+     "label": "Defeated after final boss activated",
+     "siteLabel": "I was defeated after the final boss was activated.",
+     "isVictory": false
+    }
+   ],
+   "boxHeroes": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
+   ]
+  },
+  {
+   "slug": "tanglewoods-red",
+   "name": "Tanglewoods: Red",
+   "bossLabel": "Boss",
+   "heroes": [
+    {
+     "siteId": 27,
+     "name": "Bo Peep / The Flock",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 24,
+     "name": "Little Red / Big Red",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 26,
+     "name": "Piping Piper / Pied Piper",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 25,
+     "name": "The Marquis de Carabas / Puss in Boots",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 23,
+     "name": "Thumbelina / Maya",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 45,
+     "name": "Doctor Know-All / Crabb",
+     "group": "Guest — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 44,
+     "name": "Golden Harp / Golden Goose",
+     "group": "Guest — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 38,
+     "name": "Rapunzel",
+     "group": "Guest — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 43,
+     "name": "The Moonkeeper / The Mayor of Moontown",
+     "group": "Guest — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 2,
+     "name": "Beckett Sun-Forger",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 3,
+     "name": "Gal'Had the Lancer",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 5,
+     "name": "Stellar Blade Isolde",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 6,
+     "name": "Valkyrie, Mk.7",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 10,
+     "name": "Nugget",
+     "group": "Universal — Too Many Bones"
+    },
+    {
+     "siteId": 12,
+     "name": "Riffle",
+     "group": "Universal — Too Many Bones"
+    },
+    {
+     "siteId": 15,
+     "name": "Decimus",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 22,
+     "name": "Pandora",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 19,
+     "name": "Sea Strider",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 20,
+     "name": "Stygiana",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 29,
+     "name": "The Fool / The Flying Ship",
+     "group": "Universal — Tanglewoods: Gold"
+    },
+    {
+     "siteId": 33,
+     "name": "Snow White / The Fairest",
+     "group": "Universal — Tanglewoods: White"
+    },
+    {
+     "siteId": 41,
+     "name": "Jack my Hedgehog",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 40,
+     "name": "Sister of Ravens",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 42,
+     "name": "The Frog Prince",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 39,
+     "name": "The Giant",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 50,
+     "name": "The Blue Fairy / The Fairy with the Turquoise Hair",
+     "group": "Universal — Tanglewoods: Rose"
+    },
+    {
+     "siteId": 60,
+     "name": "Kroob",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 65,
+     "name": "Londil",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 64,
+     "name": "Flintlock",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 61,
+     "name": "Lecheez",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 62,
+     "name": "Lostomire",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 63,
+     "name": "Slame",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 109,
+     "name": "Android",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 69,
+     "name": "Catonaut",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 102,
+     "name": "Laika",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 110,
+     "name": "Scientist",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 82,
+     "name": "Ailei",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 83,
+     "name": "Arev",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 84,
+     "name": "Caolin",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 89,
+     "name": "Gambler",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 95,
+     "name": "Gambler - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 90,
+     "name": "Specialist",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 96,
+     "name": "Specialist - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 91,
+     "name": "Thorn Knight",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 97,
+     "name": "Thorn Knight - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 67,
+     "name": "Jack",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 68,
+     "name": "Stilts",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 66,
+     "name": "Tink",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 71,
+     "name": "Godfather Death / Old Rinkrank",
+     "group": "Universal — Promo 3"
+    },
+    {
+     "siteId": 70,
+     "name": "Mischievous Fairy / Malevolent Fairy",
+     "group": "Universal — Promo 3"
+    },
+    {
+     "siteId": 72,
+     "name": "Wicked Witch",
+     "group": "Universal — Promo 3"
+    }
+   ],
+   "bosses": [
+    {
+     "siteId": 19,
+     "name": "Big Bad Wolf",
+     "siteName": "Big Bad Wolf"
+    },
+    {
+     "siteId": 20,
+     "name": "Bigger, Badder Wolf",
+     "siteName": "Bigger, Badder Wolf"
+    }
+   ],
+   "ranks": [
+    {
+     "siteId": 16,
+     "value": 0
+    },
+    {
+     "siteId": 17,
+     "value": 1
+    },
+    {
+     "siteId": 18,
+     "value": 2
+    },
+    {
+     "siteId": 19,
+     "value": 3
+    },
+    {
+     "siteId": 20,
+     "value": 4
+    },
+    {
+     "siteId": 21,
+     "value": 5
+    },
+    {
+     "siteId": 22,
+     "value": 6
+    },
+    {
+     "siteId": 23,
+     "value": 7
+    },
+    {
+     "siteId": 24,
+     "value": 8
+    },
+    {
+     "siteId": 25,
+     "value": 9
+    },
+    {
+     "siteId": 26,
+     "value": 10
+    }
+   ],
+   "outcomes": [
+    {
+     "siteId": 10,
+     "label": "Victory",
+     "siteLabel": "Victory!",
+     "isVictory": true
+    },
+    {
+     "siteId": 12,
+     "label": "Defeated before boss",
+     "siteLabel": "I was defeated before reaching the boss encounter.",
+     "isVictory": false
+    },
+    {
+     "siteId": 11,
+     "label": "Defeated during boss",
+     "siteLabel": "I was defeated during the boss encounter.",
+     "isVictory": false
+    }
+   ],
+   "boxHeroes": [
+    27,
+    24,
+    26,
+    25,
+    23
+   ]
+  },
+  {
+   "slug": "tanglewoods-gold",
+   "name": "Tanglewoods: Gold",
+   "bossLabel": "Boss",
+   "heroes": [
+    {
+     "siteId": 28,
+     "name": "Goldy / Lockes",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 31,
+     "name": "Hansel / Gretel",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 30,
+     "name": "Pinocchio",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 29,
+     "name": "The Fool / The Flying Ship",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 32,
+     "name": "The Prince / The Beast",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 45,
+     "name": "Doctor Know-All / Crabb",
+     "group": "Guest — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 44,
+     "name": "Golden Harp / Golden Goose",
+     "group": "Guest — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 38,
+     "name": "Rapunzel",
+     "group": "Guest — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 43,
+     "name": "The Moonkeeper / The Mayor of Moontown",
+     "group": "Guest — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 2,
+     "name": "Beckett Sun-Forger",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 3,
+     "name": "Gal'Had the Lancer",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 5,
+     "name": "Stellar Blade Isolde",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 6,
+     "name": "Valkyrie, Mk.7",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 10,
+     "name": "Nugget",
+     "group": "Universal — Too Many Bones"
+    },
+    {
+     "siteId": 12,
+     "name": "Riffle",
+     "group": "Universal — Too Many Bones"
+    },
+    {
+     "siteId": 15,
+     "name": "Decimus",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 22,
+     "name": "Pandora",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 19,
+     "name": "Sea Strider",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 20,
+     "name": "Stygiana",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 23,
+     "name": "Thumbelina / Maya",
+     "group": "Universal — Tanglewoods: Red"
+    },
+    {
+     "siteId": 33,
+     "name": "Snow White / The Fairest",
+     "group": "Universal — Tanglewoods: White"
+    },
+    {
+     "siteId": 41,
+     "name": "Jack my Hedgehog",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 40,
+     "name": "Sister of Ravens",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 42,
+     "name": "The Frog Prince",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 39,
+     "name": "The Giant",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 50,
+     "name": "The Blue Fairy / The Fairy with the Turquoise Hair",
+     "group": "Universal — Tanglewoods: Rose"
+    },
+    {
+     "siteId": 60,
+     "name": "Kroob",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 65,
+     "name": "Londil",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 64,
+     "name": "Flintlock",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 61,
+     "name": "Lecheez",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 62,
+     "name": "Lostomire",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 63,
+     "name": "Slame",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 109,
+     "name": "Android",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 69,
+     "name": "Catonaut",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 102,
+     "name": "Laika",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 110,
+     "name": "Scientist",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 82,
+     "name": "Ailei",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 83,
+     "name": "Arev",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 84,
+     "name": "Caolin",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 89,
+     "name": "Gambler",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 95,
+     "name": "Gambler - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 90,
+     "name": "Specialist",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 96,
+     "name": "Specialist - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 91,
+     "name": "Thorn Knight",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 97,
+     "name": "Thorn Knight - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 67,
+     "name": "Jack",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 68,
+     "name": "Stilts",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 66,
+     "name": "Tink",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 71,
+     "name": "Godfather Death / Old Rinkrank",
+     "group": "Universal — Promo 3"
+    },
+    {
+     "siteId": 70,
+     "name": "Mischievous Fairy / Malevolent Fairy",
+     "group": "Universal — Promo 3"
+    },
+    {
+     "siteId": 72,
+     "name": "Wicked Witch",
+     "group": "Universal — Promo 3"
+    }
+   ],
+   "bosses": [
+    {
+     "siteId": 21,
+     "name": "The Three Bears",
+     "siteName": "The Three Bears"
+    }
+   ],
+   "ranks": [
+    {
+     "siteId": 27,
+     "value": 0
+    },
+    {
+     "siteId": 28,
+     "value": 1
+    },
+    {
+     "siteId": 29,
+     "value": 2
+    },
+    {
+     "siteId": 30,
+     "value": 3
+    },
+    {
+     "siteId": 31,
+     "value": 4
+    },
+    {
+     "siteId": 32,
+     "value": 5
+    },
+    {
+     "siteId": 33,
+     "value": 6
+    },
+    {
+     "siteId": 34,
+     "value": 7
+    },
+    {
+     "siteId": 35,
+     "value": 8
+    },
+    {
+     "siteId": 36,
+     "value": 9
+    },
+    {
+     "siteId": 37,
+     "value": 10
+    }
+   ],
+   "outcomes": [
+    {
+     "siteId": 13,
+     "label": "Victory",
+     "siteLabel": "Victory!",
+     "isVictory": true
+    },
+    {
+     "siteId": 14,
+     "label": "Defeated before the Three Bears",
+     "siteLabel": "I was defeated before defeating the Three Bears.",
+     "isVictory": false
+    },
+    {
+     "siteId": 15,
+     "label": "Defeated facing the Three Bears",
+     "siteLabel": "I was defeated while facing at least on of the Three Bears.",
+     "isVictory": false
+    }
+   ],
+   "boxHeroes": [
+    28,
+    31,
+    30,
+    29,
+    32
+   ]
+  },
+  {
+   "slug": "tanglewoods-white",
+   "name": "Tanglewoods: White",
+   "bossLabel": "Boss",
+   "heroes": [
+    {
+     "siteId": 36,
+     "name": "Bubbly / Ennui",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 34,
+     "name": "Peckish / Reckless",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 33,
+     "name": "Snow White / The Fairest",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 35,
+     "name": "The Huntsman / Prince Charming",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 37,
+     "name": "Toil & Trouble / Shawn",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 45,
+     "name": "Doctor Know-All / Crabb",
+     "group": "Guest — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 44,
+     "name": "Golden Harp / Golden Goose",
+     "group": "Guest — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 38,
+     "name": "Rapunzel",
+     "group": "Guest — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 43,
+     "name": "The Moonkeeper / The Mayor of Moontown",
+     "group": "Guest — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 2,
+     "name": "Beckett Sun-Forger",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 3,
+     "name": "Gal'Had the Lancer",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 5,
+     "name": "Stellar Blade Isolde",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 6,
+     "name": "Valkyrie, Mk.7",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 10,
+     "name": "Nugget",
+     "group": "Universal — Too Many Bones"
+    },
+    {
+     "siteId": 12,
+     "name": "Riffle",
+     "group": "Universal — Too Many Bones"
+    },
+    {
+     "siteId": 15,
+     "name": "Decimus",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 22,
+     "name": "Pandora",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 19,
+     "name": "Sea Strider",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 20,
+     "name": "Stygiana",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 23,
+     "name": "Thumbelina / Maya",
+     "group": "Universal — Tanglewoods: Red"
+    },
+    {
+     "siteId": 29,
+     "name": "The Fool / The Flying Ship",
+     "group": "Universal — Tanglewoods: Gold"
+    },
+    {
+     "siteId": 41,
+     "name": "Jack my Hedgehog",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 40,
+     "name": "Sister of Ravens",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 42,
+     "name": "The Frog Prince",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 39,
+     "name": "The Giant",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 50,
+     "name": "The Blue Fairy / The Fairy with the Turquoise Hair",
+     "group": "Universal — Tanglewoods: Rose"
+    },
+    {
+     "siteId": 60,
+     "name": "Kroob",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 65,
+     "name": "Londil",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 64,
+     "name": "Flintlock",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 61,
+     "name": "Lecheez",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 62,
+     "name": "Lostomire",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 63,
+     "name": "Slame",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 109,
+     "name": "Android",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 69,
+     "name": "Catonaut",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 102,
+     "name": "Laika",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 110,
+     "name": "Scientist",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 82,
+     "name": "Ailei",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 83,
+     "name": "Arev",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 84,
+     "name": "Caolin",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 89,
+     "name": "Gambler",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 95,
+     "name": "Gambler - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 90,
+     "name": "Specialist",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 96,
+     "name": "Specialist - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 91,
+     "name": "Thorn Knight",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 97,
+     "name": "Thorn Knight - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 67,
+     "name": "Jack",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 68,
+     "name": "Stilts",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 66,
+     "name": "Tink",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 71,
+     "name": "Godfather Death / Old Rinkrank",
+     "group": "Universal — Promo 3"
+    },
+    {
+     "siteId": 70,
+     "name": "Mischievous Fairy / Malevolent Fairy",
+     "group": "Universal — Promo 3"
+    },
+    {
+     "siteId": 72,
+     "name": "Wicked Witch",
+     "group": "Universal — Promo 3"
+    }
+   ],
+   "bosses": [
+    {
+     "siteId": 22,
+     "name": "The Evil Stepmother",
+     "siteName": "The Evil Stepmother"
+    }
+   ],
+   "ranks": [
+    {
+     "siteId": 38,
+     "value": 0
+    },
+    {
+     "siteId": 39,
+     "value": 1
+    },
+    {
+     "siteId": 40,
+     "value": 2
+    },
+    {
+     "siteId": 41,
+     "value": 3
+    },
+    {
+     "siteId": 42,
+     "value": 4
+    },
+    {
+     "siteId": 43,
+     "value": 5
+    },
+    {
+     "siteId": 44,
+     "value": 6
+    },
+    {
+     "siteId": 45,
+     "value": 7
+    },
+    {
+     "siteId": 46,
+     "value": 8
+    },
+    {
+     "siteId": 47,
+     "value": 9
+    },
+    {
+     "siteId": 48,
+     "value": 10
+    }
+   ],
+   "outcomes": [
+    {
+     "siteId": 19,
+     "label": "Victory",
+     "siteLabel": "Victory!",
+     "isVictory": true
+    },
+    {
+     "siteId": 20,
+     "label": "Defeated before the castle",
+     "siteLabel": "I was defeated before reaching the castle.",
+     "isVictory": false
+    },
+    {
+     "siteId": 21,
+     "label": "Defeated fighting a castle boss",
+     "siteLabel": "I was defeated while fighting a castle boss.",
+     "isVictory": false
+    }
+   ],
+   "boxHeroes": [
+    36,
+    34,
+    33,
+    35,
+    37
+   ]
+  },
+  {
+   "slug": "tanglewoods-baba-yaga",
+   "name": "Tanglewoods: Baba Yaga",
+   "bossLabel": "Boss",
+   "heroes": [
+    {
+     "siteId": 45,
+     "name": "Doctor Know-All / Crabb",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 44,
+     "name": "Golden Harp / Golden Goose",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 41,
+     "name": "Jack my Hedgehog",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 38,
+     "name": "Rapunzel",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 40,
+     "name": "Sister of Ravens",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 42,
+     "name": "The Frog Prince",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 39,
+     "name": "The Giant",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 43,
+     "name": "The Moonkeeper / The Mayor of Moontown",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 2,
+     "name": "Beckett Sun-Forger",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 3,
+     "name": "Gal'Had the Lancer",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 5,
+     "name": "Stellar Blade Isolde",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 6,
+     "name": "Valkyrie, Mk.7",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 10,
+     "name": "Nugget",
+     "group": "Universal — Too Many Bones"
+    },
+    {
+     "siteId": 12,
+     "name": "Riffle",
+     "group": "Universal — Too Many Bones"
+    },
+    {
+     "siteId": 15,
+     "name": "Decimus",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 22,
+     "name": "Pandora",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 19,
+     "name": "Sea Strider",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 20,
+     "name": "Stygiana",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 23,
+     "name": "Thumbelina / Maya",
+     "group": "Universal — Tanglewoods: Red"
+    },
+    {
+     "siteId": 29,
+     "name": "The Fool / The Flying Ship",
+     "group": "Universal — Tanglewoods: Gold"
+    },
+    {
+     "siteId": 33,
+     "name": "Snow White / The Fairest",
+     "group": "Universal — Tanglewoods: White"
+    },
+    {
+     "siteId": 50,
+     "name": "The Blue Fairy / The Fairy with the Turquoise Hair",
+     "group": "Universal — Tanglewoods: Rose"
+    },
+    {
+     "siteId": 60,
+     "name": "Kroob",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 65,
+     "name": "Londil",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 64,
+     "name": "Flintlock",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 61,
+     "name": "Lecheez",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 62,
+     "name": "Lostomire",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 63,
+     "name": "Slame",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 109,
+     "name": "Android",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 69,
+     "name": "Catonaut",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 102,
+     "name": "Laika",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 110,
+     "name": "Scientist",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 82,
+     "name": "Ailei",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 83,
+     "name": "Arev",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 84,
+     "name": "Caolin",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 89,
+     "name": "Gambler",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 95,
+     "name": "Gambler - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 90,
+     "name": "Specialist",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 96,
+     "name": "Specialist - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 91,
+     "name": "Thorn Knight",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 97,
+     "name": "Thorn Knight - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 67,
+     "name": "Jack",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 68,
+     "name": "Stilts",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 66,
+     "name": "Tink",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 71,
+     "name": "Godfather Death / Old Rinkrank",
+     "group": "Universal — Promo 3"
+    },
+    {
+     "siteId": 70,
+     "name": "Mischievous Fairy / Malevolent Fairy",
+     "group": "Universal — Promo 3"
+    },
+    {
+     "siteId": 72,
+     "name": "Wicked Witch",
+     "group": "Universal — Promo 3"
+    }
+   ],
+   "bosses": [
+    {
+     "siteId": 23,
+     "name": "Baba Yaga",
+     "siteName": "Baba Yaga"
+    }
+   ],
+   "ranks": [
+    {
+     "siteId": 49,
+     "value": 1
+    },
+    {
+     "siteId": 50,
+     "value": 2
+    },
+    {
+     "siteId": 51,
+     "value": 3
+    },
+    {
+     "siteId": 52,
+     "value": 4
+    }
+   ],
+   "outcomes": [
+    {
+     "siteId": 22,
+     "label": "Victory",
+     "siteLabel": "Victory!",
+     "isVictory": true
+    },
+    {
+     "siteId": 23,
+     "label": "Defeated before campaign bosses",
+     "siteLabel": "I was defeated before reaching the campaign boss fights.",
+     "isVictory": false
+    },
+    {
+     "siteId": 24,
+     "label": "Defeated by the Chicken House",
+     "siteLabel": "I was defeated during the Chicken House boss fight.",
+     "isVictory": false
+    },
+    {
+     "siteId": 25,
+     "label": "Defeated by Baba Yaga",
+     "siteLabel": "I was defeated during the Baba Yaga boss fight.",
+     "isVictory": false
+    }
+   ],
+   "boxHeroes": [
+    45,
+    44,
+    41,
+    38,
+    40,
+    42,
+    39,
+    43
+   ]
+  },
+  {
+   "slug": "tanglewoods-rose",
+   "name": "Tanglewoods: Rose",
+   "bossLabel": "Boss",
+   "heroes": [
+    {
+     "siteId": 47,
+     "name": "Beast",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 46,
+     "name": "Beauty",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 48,
+     "name": "Genie",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 50,
+     "name": "The Blue Fairy / The Fairy with the Turquoise Hair",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 49,
+     "name": "The Mermaid",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 2,
+     "name": "Beckett Sun-Forger",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 3,
+     "name": "Gal'Had the Lancer",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 5,
+     "name": "Stellar Blade Isolde",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 6,
+     "name": "Valkyrie, Mk.7",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 10,
+     "name": "Nugget",
+     "group": "Universal — Too Many Bones"
+    },
+    {
+     "siteId": 12,
+     "name": "Riffle",
+     "group": "Universal — Too Many Bones"
+    },
+    {
+     "siteId": 15,
+     "name": "Decimus",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 22,
+     "name": "Pandora",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 19,
+     "name": "Sea Strider",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 20,
+     "name": "Stygiana",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 23,
+     "name": "Thumbelina / Maya",
+     "group": "Universal — Tanglewoods: Red"
+    },
+    {
+     "siteId": 29,
+     "name": "The Fool / The Flying Ship",
+     "group": "Universal — Tanglewoods: Gold"
+    },
+    {
+     "siteId": 33,
+     "name": "Snow White / The Fairest",
+     "group": "Universal — Tanglewoods: White"
+    },
+    {
+     "siteId": 41,
+     "name": "Jack my Hedgehog",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 40,
+     "name": "Sister of Ravens",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 42,
+     "name": "The Frog Prince",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 39,
+     "name": "The Giant",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 60,
+     "name": "Kroob",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 65,
+     "name": "Londil",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 64,
+     "name": "Flintlock",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 61,
+     "name": "Lecheez",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 62,
+     "name": "Lostomire",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 63,
+     "name": "Slame",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 109,
+     "name": "Android",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 69,
+     "name": "Catonaut",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 102,
+     "name": "Laika",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 110,
+     "name": "Scientist",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 82,
+     "name": "Ailei",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 83,
+     "name": "Arev",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 84,
+     "name": "Caolin",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 89,
+     "name": "Gambler",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 95,
+     "name": "Gambler - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 90,
+     "name": "Specialist",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 96,
+     "name": "Specialist - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 91,
+     "name": "Thorn Knight",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 97,
+     "name": "Thorn Knight - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 67,
+     "name": "Jack",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 68,
+     "name": "Stilts",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 66,
+     "name": "Tink",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 71,
+     "name": "Godfather Death / Old Rinkrank",
+     "group": "Universal — Promo 3"
+    },
+    {
+     "siteId": 70,
+     "name": "Mischievous Fairy / Malevolent Fairy",
+     "group": "Universal — Promo 3"
+    },
+    {
+     "siteId": 72,
+     "name": "Wicked Witch",
+     "group": "Universal — Promo 3"
+    }
+   ],
+   "bosses": [
+    {
+     "siteId": 24,
+     "name": "The Villagers",
+     "siteName": "The Villagers"
+    }
+   ],
+   "ranks": [
+    {
+     "siteId": 53,
+     "value": 0
+    },
+    {
+     "siteId": 54,
+     "value": 1
+    },
+    {
+     "siteId": 55,
+     "value": 2
+    },
+    {
+     "siteId": 56,
+     "value": 3
+    },
+    {
+     "siteId": 57,
+     "value": 4
+    },
+    {
+     "siteId": 58,
+     "value": 5
+    },
+    {
+     "siteId": 59,
+     "value": 6
+    },
+    {
+     "siteId": 60,
+     "value": 7
+    },
+    {
+     "siteId": 61,
+     "value": 8
+    },
+    {
+     "siteId": 62,
+     "value": 9
+    },
+    {
+     "siteId": 63,
+     "value": 10
+    }
+   ],
+   "outcomes": [
+    {
+     "siteId": 16,
+     "label": "Victory",
+     "siteLabel": "Victory!",
+     "isVictory": true
+    },
+    {
+     "siteId": 18,
+     "label": "Defeated: out of health",
+     "siteLabel": "I was defeated by losing my last health point.",
+     "isVictory": false
+    },
+    {
+     "siteId": 17,
+     "label": "Defeated: out of time",
+     "siteLabel": "I was defeated by running out of time.",
+     "isVictory": false
+    }
+   ],
+   "boxHeroes": [
+    47,
+    46,
+    48,
+    50,
+    49
+   ]
+  },
+  {
+   "slug": "nemesis",
+   "name": "Nemesis",
+   "bossLabel": "Boss",
+   "heroes": [
+    {
+     "siteId": 109,
+     "name": "Android",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 98,
+     "name": "Bounty Hunter",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 99,
+     "name": "Captain",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 69,
+     "name": "Catonaut",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 100,
+     "name": "CEO",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 101,
+     "name": "Convict",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 102,
+     "name": "Laika",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 103,
+     "name": "Mechanic",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 104,
+     "name": "Medic",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 105,
+     "name": "Pilot",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 106,
+     "name": "Psychologist",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 110,
+     "name": "Scientist",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 107,
+     "name": "Scout",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 108,
+     "name": "Soldier",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 2,
+     "name": "Beckett Sun-Forger",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 3,
+     "name": "Gal'Had the Lancer",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 5,
+     "name": "Stellar Blade Isolde",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 6,
+     "name": "Valkyrie, Mk.7",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 10,
+     "name": "Nugget",
+     "group": "Universal — Too Many Bones"
+    },
+    {
+     "siteId": 12,
+     "name": "Riffle",
+     "group": "Universal — Too Many Bones"
+    },
+    {
+     "siteId": 15,
+     "name": "Decimus",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 22,
+     "name": "Pandora",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 19,
+     "name": "Sea Strider",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 20,
+     "name": "Stygiana",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 23,
+     "name": "Thumbelina / Maya",
+     "group": "Universal — Tanglewoods: Red"
+    },
+    {
+     "siteId": 29,
+     "name": "The Fool / The Flying Ship",
+     "group": "Universal — Tanglewoods: Gold"
+    },
+    {
+     "siteId": 33,
+     "name": "Snow White / The Fairest",
+     "group": "Universal — Tanglewoods: White"
+    },
+    {
+     "siteId": 41,
+     "name": "Jack my Hedgehog",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 40,
+     "name": "Sister of Ravens",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 42,
+     "name": "The Frog Prince",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 39,
+     "name": "The Giant",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 50,
+     "name": "The Blue Fairy / The Fairy with the Turquoise Hair",
+     "group": "Universal — Tanglewoods: Rose"
+    },
+    {
+     "siteId": 60,
+     "name": "Kroob",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 65,
+     "name": "Londil",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 64,
+     "name": "Flintlock",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 61,
+     "name": "Lecheez",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 62,
+     "name": "Lostomire",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 63,
+     "name": "Slame",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 82,
+     "name": "Ailei",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 83,
+     "name": "Arev",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 84,
+     "name": "Caolin",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 89,
+     "name": "Gambler",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 95,
+     "name": "Gambler - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 90,
+     "name": "Specialist",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 96,
+     "name": "Specialist - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 91,
+     "name": "Thorn Knight",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 97,
+     "name": "Thorn Knight - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 67,
+     "name": "Jack",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 68,
+     "name": "Stilts",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 66,
+     "name": "Tink",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 71,
+     "name": "Godfather Death / Old Rinkrank",
+     "group": "Universal — Promo 3"
+    },
+    {
+     "siteId": 70,
+     "name": "Mischievous Fairy / Malevolent Fairy",
+     "group": "Universal — Promo 3"
+    },
+    {
+     "siteId": 72,
+     "name": "Wicked Witch",
+     "group": "Universal — Promo 3"
+    }
+   ],
+   "bosses": [
+    {
+     "siteId": 34,
+     "name": "Nemesis",
+     "siteName": "Nemesis"
+    }
+   ],
+   "ranks": [
+    {
+     "siteId": 68,
+     "value": 1
+    },
+    {
+     "siteId": 79,
+     "value": 2
+    },
+    {
+     "siteId": 80,
+     "value": 3
+    },
+    {
+     "siteId": 81,
+     "value": 4
+    }
+   ],
+   "outcomes": [
+    {
+     "siteId": 35,
+     "label": "Victory",
+     "siteLabel": "Victory!",
+     "isVictory": true
+    },
+    {
+     "siteId": 36,
+     "label": "Not enough objective points",
+     "siteLabel": "I did not collect enough objective points.",
+     "isVictory": false
+    }
+   ],
+   "boxHeroes": [
+    109,
+    98,
+    99,
+    100,
+    101,
+    103,
+    104,
+    105,
+    106,
+    110,
+    107,
+    108
+   ]
+  },
+  {
+   "slug": "tainted-grail",
+   "name": "Tainted Grail",
+   "bossLabel": "Boss",
+   "heroes": [
+    {
+     "siteId": 82,
+     "name": "Ailei",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 83,
+     "name": "Arev",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 73,
+     "name": "Beor",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 84,
+     "name": "Caolin",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 74,
+     "name": "Dagan",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 75,
+     "name": "Duana",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 76,
+     "name": "Fyuul",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 77,
+     "name": "Mabd",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 78,
+     "name": "Maggot",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 79,
+     "name": "Naazer",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 85,
+     "name": "Niamh",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 80,
+     "name": "Sloan",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 81,
+     "name": "Thebalt",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 2,
+     "name": "Beckett Sun-Forger",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 3,
+     "name": "Gal'Had the Lancer",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 5,
+     "name": "Stellar Blade Isolde",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 6,
+     "name": "Valkyrie, Mk.7",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 10,
+     "name": "Nugget",
+     "group": "Universal — Too Many Bones"
+    },
+    {
+     "siteId": 12,
+     "name": "Riffle",
+     "group": "Universal — Too Many Bones"
+    },
+    {
+     "siteId": 15,
+     "name": "Decimus",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 22,
+     "name": "Pandora",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 19,
+     "name": "Sea Strider",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 20,
+     "name": "Stygiana",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 23,
+     "name": "Thumbelina / Maya",
+     "group": "Universal — Tanglewoods: Red"
+    },
+    {
+     "siteId": 29,
+     "name": "The Fool / The Flying Ship",
+     "group": "Universal — Tanglewoods: Gold"
+    },
+    {
+     "siteId": 33,
+     "name": "Snow White / The Fairest",
+     "group": "Universal — Tanglewoods: White"
+    },
+    {
+     "siteId": 41,
+     "name": "Jack my Hedgehog",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 40,
+     "name": "Sister of Ravens",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 42,
+     "name": "The Frog Prince",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 39,
+     "name": "The Giant",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 50,
+     "name": "The Blue Fairy / The Fairy with the Turquoise Hair",
+     "group": "Universal — Tanglewoods: Rose"
+    },
+    {
+     "siteId": 60,
+     "name": "Kroob",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 65,
+     "name": "Londil",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 64,
+     "name": "Flintlock",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 61,
+     "name": "Lecheez",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 62,
+     "name": "Lostomire",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 63,
+     "name": "Slame",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 109,
+     "name": "Android",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 69,
+     "name": "Catonaut",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 102,
+     "name": "Laika",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 110,
+     "name": "Scientist",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 89,
+     "name": "Gambler",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 95,
+     "name": "Gambler - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 90,
+     "name": "Specialist",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 96,
+     "name": "Specialist - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 91,
+     "name": "Thorn Knight",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 97,
+     "name": "Thorn Knight - Lucid",
+     "group": "Universal — Etherfields"
+    },
+    {
+     "siteId": 67,
+     "name": "Jack",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 68,
+     "name": "Stilts",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 66,
+     "name": "Tink",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 71,
+     "name": "Godfather Death / Old Rinkrank",
+     "group": "Universal — Promo 3"
+    },
+    {
+     "siteId": 70,
+     "name": "Mischievous Fairy / Malevolent Fairy",
+     "group": "Universal — Promo 3"
+    },
+    {
+     "siteId": 72,
+     "name": "Wicked Witch",
+     "group": "Universal — Promo 3"
+    }
+   ],
+   "bosses": [
+    {
+     "siteId": 35,
+     "name": "Arthur",
+     "siteName": "Arthur"
+    },
+    {
+     "siteId": 36,
+     "name": "Doomwing",
+     "siteName": "Doomwing"
+    },
+    {
+     "siteId": 37,
+     "name": "Fore-Dweller",
+     "siteName": "Fore-Dweller"
+    },
+    {
+     "siteId": 38,
+     "name": "Majestic Wyrm",
+     "siteName": "Majestic Wyrm"
+    },
+    {
+     "siteId": 39,
+     "name": "Orphaned Heart",
+     "siteName": "Orphaned Heart"
+    },
+    {
+     "siteId": 40,
+     "name": "Wickerman",
+     "siteName": "Wickerman"
+    }
+   ],
+   "ranks": [
+    {
+     "siteId": 69,
+     "value": 1
+    },
+    {
+     "siteId": 70,
+     "value": 2
+    },
+    {
+     "siteId": 71,
+     "value": 3
+    },
+    {
+     "siteId": 72,
+     "value": 4
+    },
+    {
+     "siteId": 73,
+     "value": 5
+    }
+   ],
+   "outcomes": [
+    {
+     "siteId": 29,
+     "label": "Victory",
+     "siteLabel": "Victory!",
+     "isVictory": true
+    },
+    {
+     "siteId": 30,
+     "label": "Defeated before boss",
+     "siteLabel": "I was defeated before reaching the boss encounter.",
+     "isVictory": false
+    },
+    {
+     "siteId": 31,
+     "label": "Defeated during boss",
+     "siteLabel": "I was defeated during the boss encounter.",
+     "isVictory": false
+    }
+   ],
+   "boxHeroes": [
+    82,
+    83,
+    73,
+    84,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+   ]
+  },
+  {
+   "slug": "etherfields",
+   "name": "Etherfields",
+   "bossLabel": "Boss",
+   "heroes": [
+    {
+     "siteId": 86,
+     "name": "Free Spirit",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 92,
+     "name": "Free Spirit - Lucid",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 89,
+     "name": "Gambler",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 95,
+     "name": "Gambler - Lucid",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 88,
+     "name": "Reaper",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 94,
+     "name": "Reaper - Lucid",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 90,
+     "name": "Specialist",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 96,
+     "name": "Specialist - Lucid",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 91,
+     "name": "Thorn Knight",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 97,
+     "name": "Thorn Knight - Lucid",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 87,
+     "name": "Tough Guy",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 93,
+     "name": "Tough Guy - Lucid",
+     "group": "Deck Heroes"
+    },
+    {
+     "siteId": 2,
+     "name": "Beckett Sun-Forger",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 3,
+     "name": "Gal'Had the Lancer",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 5,
+     "name": "Stellar Blade Isolde",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 6,
+     "name": "Valkyrie, Mk.7",
+     "group": "Universal — Solar Sentinels"
+    },
+    {
+     "siteId": 10,
+     "name": "Nugget",
+     "group": "Universal — Too Many Bones"
+    },
+    {
+     "siteId": 12,
+     "name": "Riffle",
+     "group": "Universal — Too Many Bones"
+    },
+    {
+     "siteId": 15,
+     "name": "Decimus",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 22,
+     "name": "Pandora",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 19,
+     "name": "Sea Strider",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 20,
+     "name": "Stygiana",
+     "group": "Universal — Hoplomachus: Victorum"
+    },
+    {
+     "siteId": 23,
+     "name": "Thumbelina / Maya",
+     "group": "Universal — Tanglewoods: Red"
+    },
+    {
+     "siteId": 29,
+     "name": "The Fool / The Flying Ship",
+     "group": "Universal — Tanglewoods: Gold"
+    },
+    {
+     "siteId": 33,
+     "name": "Snow White / The Fairest",
+     "group": "Universal — Tanglewoods: White"
+    },
+    {
+     "siteId": 41,
+     "name": "Jack my Hedgehog",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 40,
+     "name": "Sister of Ravens",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 42,
+     "name": "The Frog Prince",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 39,
+     "name": "The Giant",
+     "group": "Universal — Tanglewoods: Baba Yaga"
+    },
+    {
+     "siteId": 50,
+     "name": "The Blue Fairy / The Fairy with the Turquoise Hair",
+     "group": "Universal — Tanglewoods: Rose"
+    },
+    {
+     "siteId": 60,
+     "name": "Kroob",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 65,
+     "name": "Londil",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 64,
+     "name": "Flintlock",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 61,
+     "name": "Lecheez",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 62,
+     "name": "Lostomire",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 63,
+     "name": "Slame",
+     "group": "Universal — Cloudspire"
+    },
+    {
+     "siteId": 109,
+     "name": "Android",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 69,
+     "name": "Catonaut",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 102,
+     "name": "Laika",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 110,
+     "name": "Scientist",
+     "group": "Universal — Nemesis"
+    },
+    {
+     "siteId": 82,
+     "name": "Ailei",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 83,
+     "name": "Arev",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 84,
+     "name": "Caolin",
+     "group": "Universal — Tainted Grail"
+    },
+    {
+     "siteId": 67,
+     "name": "Jack",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 68,
+     "name": "Stilts",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 66,
+     "name": "Tink",
+     "group": "Universal — Promo 1"
+    },
+    {
+     "siteId": 71,
+     "name": "Godfather Death / Old Rinkrank",
+     "group": "Universal — Promo 3"
+    },
+    {
+     "siteId": 70,
+     "name": "Mischievous Fairy / Malevolent Fairy",
+     "group": "Universal — Promo 3"
+    },
+    {
+     "siteId": 72,
+     "name": "Wicked Witch",
+     "group": "Universal — Promo 3"
+    }
+   ],
+   "bosses": [
+    {
+     "siteId": 41,
+     "name": "Belshazar",
+     "siteName": "Belshazar"
+    },
+    {
+     "siteId": 42,
+     "name": "Box Knight",
+     "siteName": "Box Knight"
+    },
+    {
+     "siteId": 43,
+     "name": "Devil",
+     "siteName": "Devil"
+    },
+    {
+     "siteId": 44,
+     "name": "Funeral Witch",
+     "siteName": "Funteral Witch"
+    },
+    {
+     "siteId": 45,
+     "name": "Scarecrow",
+     "siteName": "Scarecrow"
+    },
+    {
+     "siteId": 46,
+     "name": "She-Wolf",
+     "siteName": "She-Wolf"
+    },
+    {
+     "siteId": 47,
+     "name": "Something Wicked",
+     "siteName": "Something Wicked"
+    },
+    {
+     "siteId": 48,
+     "name": "Sphinx",
+     "siteName": "Sphinx"
+    },
+    {
+     "siteId": 49,
+     "name": "Swamp Walker",
+     "siteName": "Swamp Walker"
+    },
+    {
+     "siteId": 50,
+     "name": "The Tormentor",
+     "siteName": "The Tormentor"
+    },
+    {
+     "siteId": 51,
+     "name": "Warden",
+     "siteName": "Warden"
+    }
+   ],
+   "ranks": [
+    {
+     "siteId": 74,
+     "value": 1
+    },
+    {
+     "siteId": 75,
+     "value": 2
+    },
+    {
+     "siteId": 76,
+     "value": 3
+    },
+    {
+     "siteId": 77,
+     "value": 4
+    },
+    {
+     "siteId": 78,
+     "value": 5
+    }
+   ],
+   "outcomes": [
+    {
+     "siteId": 32,
+     "label": "Victory",
+     "siteLabel": "Victory!",
+     "isVictory": true
+    },
+    {
+     "siteId": 33,
+     "label": "Defeated before boss",
+     "siteLabel": "I was defeated before reaching the boss encounter.",
+     "isVictory": false
+    },
+    {
+     "siteId": 34,
+     "label": "Defeated during boss",
+     "siteLabel": "I was defeated during the boss encounter.",
+     "isVictory": false
+    }
+   ],
+   "boxHeroes": [
+    86,
+    92,
+    89,
+    95,
+    88,
+    94,
+    90,
+    96,
+    87,
+    93
+   ]
+  }
+ ]
+}
