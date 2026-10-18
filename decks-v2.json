@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "version": "2026-10-16",
+ "version": "2026-10-17",
  "promos": [
   {
    "key": "promo-1",
@@ -542,7 +542,8 @@
   {
    "siteId": 85,
    "name": "Niamh",
-   "deck": "tainted-grail"
+   "deck": "tainted-grail",
+   "universal": true
   },
   {
    "siteId": 80,
