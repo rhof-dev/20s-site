@@ -1,1707 +1,4746 @@
 {
- "schema": 2,
- "version": "2026-10-17",
- "promos": [
-  {
-   "key": "promo-1",
-   "name": "Promo 1",
-   "heroes": [
-    66,
-    67,
-    68
-   ]
-  },
-  {
-   "key": "promo-2",
-   "name": "Promo 2",
-   "heroes": [
-    71,
-    72,
-    70
-   ]
-  },
-  {
-   "key": "promo-3",
-   "name": "Promo 3",
-   "heroes": [
-    22,
-    69,
-    12,
-    65,
-    64
-   ]
-  },
-  {
-   "key": "promo-4",
-   "name": "Promo 4",
-   "heroes": [
-    85,
-    91,
-    97,
-    102
-   ]
+  "schema": 2,
+  "version": "2026-10-20",
+  "promos": [
+    {
+      "key": "promo-1",
+      "name": "Promo 1",
+      "heroes": [
+        66,
+        67,
+        68
+      ]
+    },
+    {
+      "key": "promo-2",
+      "name": "Promo 2",
+      "heroes": [
+        71,
+        72,
+        70
+      ]
+    },
+    {
+      "key": "promo-3",
+      "name": "Promo 3",
+      "heroes": [
+        22,
+        69,
+        12,
+        65,
+        64
+      ]
+    },
+    {
+      "key": "promo-4",
+      "name": "Promo 4",
+      "heroes": [
+        85,
+        91,
+        97,
+        102
+      ]
+    }
+  ],
+  "heroes": [
+    {
+      "siteId": 1,
+      "name": "Astral Scout Raven",
+      "deck": "solar-sentinels",
+      "stats": {
+        "health": 3,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 2,
+      "name": "Beckett Sun-Forger",
+      "deck": "solar-sentinels",
+      "universal": true,
+      "stats": {
+        "health": 4,
+        "strategy": 2,
+        "recovery": 1
+      }
+    },
+    {
+      "siteId": 3,
+      "name": "Gal'Had the Lancer",
+      "deck": "solar-sentinels",
+      "universal": true,
+      "stats": {
+        "health": 1,
+        "strategy": 3,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 4,
+      "name": "P.I.K.E Master Orlo",
+      "deck": "solar-sentinels",
+      "stats": {
+        "health": 2,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 5,
+      "name": "Stellar Blade Isolde",
+      "deck": "solar-sentinels",
+      "universal": true,
+      "stats": {
+        "health": 3,
+        "strategy": 2,
+        "recovery": 1
+      }
+    },
+    {
+      "siteId": 6,
+      "name": "Valkyrie, Mk.7",
+      "deck": "solar-sentinels",
+      "universal": true,
+      "stats": {
+        "health": 3,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 7,
+      "name": "Duster",
+      "deck": "too-many-bones",
+      "stats": {
+        "health": 1,
+        "strategy": 3,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 8,
+      "name": "Figment",
+      "deck": "too-many-bones",
+      "stats": {
+        "health": 2,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 9,
+      "name": "Gasket",
+      "deck": "too-many-bones",
+      "stats": {
+        "health": 2,
+        "strategy": 1,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 10,
+      "name": "Nugget",
+      "deck": "too-many-bones",
+      "universal": true,
+      "stats": {
+        "health": 2,
+        "strategy": 3,
+        "recovery": 1
+      }
+    },
+    {
+      "siteId": 11,
+      "name": "Patches",
+      "deck": "too-many-bones",
+      "stats": {
+        "health": 2,
+        "strategy": 2,
+        "recovery": 1
+      }
+    },
+    {
+      "siteId": 12,
+      "name": "Riffle",
+      "deck": "too-many-bones",
+      "universal": true,
+      "stats": {
+        "health": 2,
+        "strategy": 1,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 13,
+      "name": "Aprilis",
+      "deck": "hoplomachus-victorum",
+      "stats": {
+        "health": 2,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 14,
+      "name": "Bingqing",
+      "deck": "hoplomachus-victorum",
+      "stats": {
+        "health": 4,
+        "strategy": 2,
+        "recovery": 1
+      }
+    },
+    {
+      "siteId": 15,
+      "name": "Decimus",
+      "deck": "hoplomachus-victorum",
+      "universal": true,
+      "stats": {
+        "health": 3,
+        "strategy": 3,
+        "recovery": 1
+      }
+    },
+    {
+      "siteId": 16,
+      "name": "Krakenlance",
+      "deck": "hoplomachus-victorum",
+      "stats": {
+        "health": 2,
+        "strategy": 4,
+        "recovery": 1
+      }
+    },
+    {
+      "siteId": 17,
+      "name": "Nox",
+      "deck": "hoplomachus-victorum",
+      "stats": {
+        "health": 4,
+        "strategy": 1,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 22,
+      "name": "Pandora",
+      "deck": "hoplomachus-victorum",
+      "universal": true,
+      "stats": {
+        "health": 2,
+        "strategy": 3,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 19,
+      "name": "Sea Strider",
+      "deck": "hoplomachus-victorum",
+      "universal": true,
+      "stats": {
+        "health": 3,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 20,
+      "name": "Stygiana",
+      "deck": "hoplomachus-victorum",
+      "universal": true,
+      "stats": {
+        "health": 2,
+        "strategy": 3,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 18,
+      "name": "The Parthian",
+      "deck": "hoplomachus-victorum",
+      "stats": {
+        "health": 1,
+        "strategy": 3,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 21,
+      "name": "Virago",
+      "deck": "hoplomachus-victorum",
+      "stats": {
+        "health": 2,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 51,
+      "name": "Bydra Graam",
+      "deck": "cloudspire",
+      "stats": {
+        "health": 2,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 52,
+      "name": "Captain Tinbeard",
+      "deck": "cloudspire",
+      "stats": {
+        "health": 3,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 53,
+      "name": "Echri",
+      "deck": "cloudspire",
+      "stats": {
+        "health": 4,
+        "strategy": 2,
+        "recovery": 1
+      }
+    },
+    {
+      "siteId": 54,
+      "name": "Fission",
+      "deck": "cloudspire",
+      "stats": {
+        "health": 4,
+        "strategy": 1,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 55,
+      "name": "General Eko",
+      "deck": "cloudspire",
+      "stats": {
+        "health": 2,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 56,
+      "name": "Jaelana Nestor",
+      "deck": "cloudspire",
+      "stats": {
+        "health": 3,
+        "strategy": 3,
+        "recovery": 1
+      }
+    },
+    {
+      "siteId": 57,
+      "name": "Kram the Mighty",
+      "deck": "cloudspire",
+      "stats": {
+        "health": 4,
+        "strategy": 1,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 58,
+      "name": "Netourut",
+      "deck": "cloudspire",
+      "stats": {
+        "health": 3,
+        "strategy": 3,
+        "recovery": 1
+      }
+    },
+    {
+      "siteId": 59,
+      "name": "Wyvankaye",
+      "deck": "cloudspire",
+      "stats": {
+        "health": 1,
+        "strategy": 2,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 60,
+      "name": "Kroob",
+      "deck": "cloudspire",
+      "universal": true,
+      "stats": {
+        "health": 3,
+        "strategy": 2,
+        "recovery": 1
+      }
+    },
+    {
+      "siteId": 65,
+      "name": "Londil",
+      "deck": "cloudspire",
+      "universal": true,
+      "stats": {
+        "health": 2,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 64,
+      "name": "Flintlock",
+      "deck": "cloudspire",
+      "universal": true,
+      "stats": {
+        "health": 2,
+        "strategy": 1,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 61,
+      "name": "Lecheez",
+      "deck": "cloudspire",
+      "universal": true,
+      "stats": {
+        "health": 2,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 62,
+      "name": "Lostomire",
+      "deck": "cloudspire",
+      "universal": true,
+      "stats": {
+        "health": 3,
+        "strategy": 1,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 63,
+      "name": "Slame",
+      "deck": "cloudspire",
+      "universal": true,
+      "stats": {
+        "health": 3,
+        "strategy": 1,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 27,
+      "name": "Bo Peep / The Flock",
+      "deck": "tanglewoods-red",
+      "stats": {
+        "health": 1,
+        "strategy": 3,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 24,
+      "name": "Little Red / Big Red",
+      "deck": "tanglewoods-red",
+      "stats": {
+        "health": 2,
+        "strategy": 3,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 26,
+      "name": "Piping Piper / Pied Piper",
+      "deck": "tanglewoods-red",
+      "stats": {
+        "health": 2,
+        "strategy": 3,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 25,
+      "name": "The Marquis de Carabas / Puss in Boots",
+      "deck": "tanglewoods-red",
+      "stats": {
+        "health": 4,
+        "strategy": 1,
+        "recovery": 1
+      }
+    },
+    {
+      "siteId": 23,
+      "name": "Thumbelina / Maya",
+      "deck": "tanglewoods-red",
+      "universal": true,
+      "stats": {
+        "health": 2,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 28,
+      "name": "Goldy / Lockes",
+      "deck": "tanglewoods-gold",
+      "stats": {
+        "health": 2,
+        "strategy": 1,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 31,
+      "name": "Hansel / Gretel",
+      "deck": "tanglewoods-gold",
+      "stats": {
+        "health": 3,
+        "strategy": 2,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 30,
+      "name": "Pinocchio",
+      "deck": "tanglewoods-gold",
+      "stats": {
+        "health": 1,
+        "strategy": 3,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 29,
+      "name": "The Fool / The Flying Ship",
+      "deck": "tanglewoods-gold",
+      "universal": true,
+      "stats": {
+        "health": 2,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 32,
+      "name": "The Prince / The Beast",
+      "deck": "tanglewoods-gold",
+      "stats": {
+        "health": 2,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 36,
+      "name": "Bubbly / Ennui",
+      "deck": "tanglewoods-white",
+      "stats": {
+        "health": 2,
+        "strategy": 3,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 34,
+      "name": "Peckish / Reckless",
+      "deck": "tanglewoods-white",
+      "stats": {
+        "health": 3,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 33,
+      "name": "Snow White / The Fairest",
+      "deck": "tanglewoods-white",
+      "universal": true,
+      "stats": {
+        "health": 3,
+        "strategy": 1,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 35,
+      "name": "The Huntsman / Prince Charming",
+      "deck": "tanglewoods-white",
+      "stats": {
+        "health": 3,
+        "strategy": 3,
+        "recovery": 1
+      }
+    },
+    {
+      "siteId": 37,
+      "name": "Toil & Trouble / Shawn",
+      "deck": "tanglewoods-white",
+      "stats": {
+        "health": 4,
+        "strategy": 1,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 45,
+      "name": "Doctor Know-All / Crabb",
+      "deck": "tanglewoods-baba-yaga",
+      "guestIn": [
+        "tanglewoods-red",
+        "tanglewoods-gold",
+        "tanglewoods-white"
+      ],
+      "stats": {
+        "health": 1,
+        "strategy": 4,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 44,
+      "name": "Golden Harp / Golden Goose",
+      "deck": "tanglewoods-baba-yaga",
+      "guestIn": [
+        "tanglewoods-red",
+        "tanglewoods-gold",
+        "tanglewoods-white"
+      ],
+      "stats": {
+        "health": 3,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 41,
+      "name": "Jack my Hedgehog",
+      "deck": "tanglewoods-baba-yaga",
+      "universal": true,
+      "stats": {
+        "health": 3,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 38,
+      "name": "Rapunzel",
+      "deck": "tanglewoods-baba-yaga",
+      "guestIn": [
+        "tanglewoods-red",
+        "tanglewoods-gold",
+        "tanglewoods-white"
+      ],
+      "stats": {
+        "health": 3,
+        "strategy": 1,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 40,
+      "name": "Sister of Ravens",
+      "deck": "tanglewoods-baba-yaga",
+      "universal": true,
+      "stats": {
+        "health": 1,
+        "strategy": 3,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 42,
+      "name": "The Frog Prince",
+      "deck": "tanglewoods-baba-yaga",
+      "universal": true,
+      "stats": {
+        "health": 2,
+        "strategy": 2,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 39,
+      "name": "The Giant",
+      "deck": "tanglewoods-baba-yaga",
+      "universal": true,
+      "stats": {
+        "health": 6,
+        "strategy": 3,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 43,
+      "name": "The Moonkeeper / The Mayor of Moontown",
+      "deck": "tanglewoods-baba-yaga",
+      "guestIn": [
+        "tanglewoods-red",
+        "tanglewoods-gold",
+        "tanglewoods-white"
+      ],
+      "stats": {
+        "health": 2,
+        "strategy": 3,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 47,
+      "name": "Beast",
+      "deck": "tanglewoods-rose",
+      "stats": {
+        "health": 5,
+        "strategy": 1,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 46,
+      "name": "Beauty",
+      "deck": "tanglewoods-rose",
+      "stats": {
+        "health": 3,
+        "strategy": 2,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 48,
+      "name": "Genie",
+      "deck": "tanglewoods-rose",
+      "stats": {
+        "health": 4,
+        "strategy": 4,
+        "recovery": 4
+      }
+    },
+    {
+      "siteId": 50,
+      "name": "The Blue Fairy / The Fairy with the Turquoise Hair",
+      "deck": "tanglewoods-rose",
+      "universal": true,
+      "stats": {
+        "health": 2,
+        "strategy": 3,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 49,
+      "name": "The Mermaid",
+      "deck": "tanglewoods-rose",
+      "stats": {
+        "health": 5,
+        "strategy": 1,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 109,
+      "name": "Android",
+      "deck": "nemesis",
+      "universal": true,
+      "stats": {
+        "health": 3,
+        "strategy": 3,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 98,
+      "name": "Bounty Hunter",
+      "deck": "nemesis",
+      "stats": {
+        "health": 5,
+        "strategy": 3,
+        "recovery": 1
+      }
+    },
+    {
+      "siteId": 99,
+      "name": "Captain",
+      "deck": "nemesis",
+      "stats": {
+        "health": 5,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 69,
+      "name": "Catonaut",
+      "deck": "nemesis",
+      "universal": true,
+      "stats": {
+        "health": 3,
+        "strategy": 3,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 100,
+      "name": "CEO",
+      "deck": "nemesis",
+      "stats": {
+        "health": 2,
+        "strategy": 3,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 101,
+      "name": "Convict",
+      "deck": "nemesis",
+      "stats": {
+        "health": 5,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 102,
+      "name": "Laika",
+      "deck": "nemesis",
+      "universal": true,
+      "stats": {
+        "health": 4,
+        "strategy": 3,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 103,
+      "name": "Mechanic",
+      "deck": "nemesis",
+      "stats": {
+        "health": 4,
+        "strategy": 3,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 104,
+      "name": "Medic",
+      "deck": "nemesis",
+      "stats": {
+        "health": 3,
+        "strategy": 2,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 105,
+      "name": "Pilot",
+      "deck": "nemesis",
+      "stats": {
+        "health": 5,
+        "strategy": 1,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 106,
+      "name": "Psychologist",
+      "deck": "nemesis",
+      "stats": {
+        "health": 2,
+        "strategy": 4,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 110,
+      "name": "Scientist",
+      "deck": "nemesis",
+      "universal": true,
+      "stats": {
+        "health": 4,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 107,
+      "name": "Scout",
+      "deck": "nemesis",
+      "stats": {
+        "health": 3,
+        "strategy": 2,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 108,
+      "name": "Soldier",
+      "deck": "nemesis",
+      "stats": {
+        "health": 5,
+        "strategy": 3,
+        "recovery": 1
+      }
+    },
+    {
+      "siteId": 82,
+      "name": "Ailei",
+      "deck": "tainted-grail",
+      "universal": true,
+      "stats": {
+        "health": 3,
+        "strategy": 3,
+        "recovery": 1
+      }
+    },
+    {
+      "siteId": 83,
+      "name": "Arev",
+      "deck": "tainted-grail",
+      "universal": true,
+      "stats": {
+        "health": 2,
+        "strategy": 3,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 73,
+      "name": "Beor",
+      "deck": "tainted-grail",
+      "stats": {
+        "health": 1,
+        "strategy": 4,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 84,
+      "name": "Caolin",
+      "deck": "tainted-grail",
+      "universal": true,
+      "stats": {
+        "health": 2,
+        "strategy": 2,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 74,
+      "name": "Dagan",
+      "deck": "tainted-grail",
+      "stats": {
+        "health": 3,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 75,
+      "name": "Duana",
+      "deck": "tainted-grail",
+      "stats": {
+        "health": 1,
+        "strategy": 3,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 76,
+      "name": "Fyuul",
+      "deck": "tainted-grail",
+      "stats": {
+        "health": 1,
+        "strategy": 3,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 77,
+      "name": "Mabd",
+      "deck": "tainted-grail",
+      "stats": {
+        "health": 2,
+        "strategy": 2,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 78,
+      "name": "Maggot",
+      "deck": "tainted-grail",
+      "stats": {
+        "health": 3,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 79,
+      "name": "Naazer",
+      "deck": "tainted-grail",
+      "stats": {
+        "health": 1,
+        "strategy": 2,
+        "recovery": 4
+      }
+    },
+    {
+      "siteId": 85,
+      "name": "Niamh",
+      "deck": "tainted-grail",
+      "universal": true,
+      "stats": {
+        "health": 2,
+        "strategy": 3,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 80,
+      "name": "Sloan",
+      "deck": "tainted-grail",
+      "stats": {
+        "health": 3,
+        "strategy": 1,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 81,
+      "name": "Thebalt",
+      "deck": "tainted-grail",
+      "stats": {
+        "health": 3,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 86,
+      "name": "Free Spirit",
+      "deck": "etherfields",
+      "stats": {
+        "health": 4,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 92,
+      "name": "Free Spirit - Lucid",
+      "deck": "etherfields",
+      "stats": {
+        "health": 4,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 89,
+      "name": "Gambler",
+      "deck": "etherfields",
+      "universal": true,
+      "stats": {
+        "health": 2,
+        "strategy": 2,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 95,
+      "name": "Gambler - Lucid",
+      "deck": "etherfields",
+      "universal": true,
+      "stats": {
+        "health": 2,
+        "strategy": 2,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 88,
+      "name": "Reaper",
+      "deck": "etherfields",
+      "stats": {
+        "health": 4,
+        "strategy": 1,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 94,
+      "name": "Reaper - Lucid",
+      "deck": "etherfields",
+      "stats": {
+        "health": 4,
+        "strategy": 1,
+        "recovery": 3
+      }
+    },
+    {
+      "siteId": 90,
+      "name": "Specialist",
+      "deck": "etherfields",
+      "universal": true,
+      "stats": {
+        "health": 4,
+        "strategy": 3,
+        "recovery": 1
+      }
+    },
+    {
+      "siteId": 96,
+      "name": "Specialist - Lucid",
+      "deck": "etherfields",
+      "universal": true,
+      "stats": {
+        "health": 4,
+        "strategy": 3,
+        "recovery": 1
+      }
+    },
+    {
+      "siteId": 91,
+      "name": "Thorn Knight",
+      "deck": "etherfields",
+      "universal": true,
+      "stats": {
+        "health": 6,
+        "strategy": 2,
+        "recovery": 1
+      }
+    },
+    {
+      "siteId": 97,
+      "name": "Thorn Knight - Lucid",
+      "deck": "etherfields",
+      "universal": true,
+      "stats": {
+        "health": 6,
+        "strategy": 2,
+        "recovery": 1
+      }
+    },
+    {
+      "siteId": 87,
+      "name": "Tough Guy",
+      "deck": "etherfields",
+      "stats": {
+        "health": 6,
+        "strategy": 1,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 93,
+      "name": "Tough Guy - Lucid",
+      "deck": "etherfields",
+      "stats": {
+        "health": 6,
+        "strategy": 1,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 67,
+      "name": "Jack",
+      "universal": true,
+      "stats": {
+        "health": 2,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 68,
+      "name": "Stilts",
+      "universal": true,
+      "stats": {
+        "health": 5,
+        "strategy": 1,
+        "recovery": 1
+      }
+    },
+    {
+      "siteId": 66,
+      "name": "Tink",
+      "universal": true,
+      "stats": {
+        "health": 3,
+        "strategy": 2,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 71,
+      "name": "Godfather Death / Old Rinkrank",
+      "universal": true,
+      "stats": {
+        "health": 2,
+        "strategy": 3,
+        "recovery": 2
+      }
+    },
+    {
+      "siteId": 70,
+      "name": "Mischievous Fairy / Malevolent Fairy",
+      "universal": true,
+      "stats": {
+        "health": 1,
+        "strategy": 3,
+        "recovery": 1
+      }
+    },
+    {
+      "siteId": 72,
+      "name": "Wicked Witch",
+      "universal": true,
+      "stats": {
+        "health": 2,
+        "strategy": 2,
+        "recovery": 2
+      }
+    }
+  ],
+  "decks": [
+    {
+      "slug": "solar-sentinels",
+      "name": "Solar Sentinels",
+      "bossLabel": "Boss",
+      "bosses": [
+        {
+          "siteId": 1,
+          "name": "The Alpha Beast",
+          "siteName": "The Alpha Beast"
+        },
+        {
+          "siteId": 2,
+          "name": "The Hive Monarch",
+          "siteName": "The Hive Monarch"
+        },
+        {
+          "siteId": 3,
+          "name": "The Mother Spore",
+          "siteName": "The Mother Spore"
+        },
+        {
+          "siteId": 4,
+          "name": "The Swarm Lord",
+          "siteName": "The Swarm Lord"
+        },
+        {
+          "siteId": 5,
+          "name": "Unknown",
+          "siteName": "unknown"
+        }
+      ],
+      "ranks": [
+        {
+          "siteId": 1,
+          "value": 1
+        },
+        {
+          "siteId": 2,
+          "value": 2
+        },
+        {
+          "siteId": 3,
+          "value": 3
+        },
+        {
+          "siteId": 4,
+          "value": 4
+        },
+        {
+          "siteId": 5,
+          "value": 5
+        },
+        {
+          "siteId": 87,
+          "value": 6
+        }
+      ],
+      "outcomes": [
+        {
+          "siteId": 1,
+          "label": "Victory",
+          "siteLabel": "Victory!",
+          "isVictory": true
+        },
+        {
+          "siteId": 2,
+          "label": "Defeated before boss",
+          "siteLabel": "I was defeated before reaching the boss encounter.",
+          "isVictory": false
+        },
+        {
+          "siteId": 3,
+          "label": "Defeated during boss",
+          "siteLabel": "I was defeated during the boss encounter.",
+          "isVictory": false
+        }
+      ],
+      "boxHeroes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "enemies": [
+        {
+          "name": "The Hive Monarch",
+          "group": "Bosses",
+          "health": 8,
+          "attack": 1,
+          "boss": true
+        },
+        {
+          "name": "The Alpha Beast",
+          "group": "Bosses",
+          "health": 12,
+          "attack": 2,
+          "boss": true
+        },
+        {
+          "name": "The Swarm Lord",
+          "group": "Bosses",
+          "health": 9,
+          "attack": 3,
+          "boss": true
+        },
+        {
+          "name": "The Mother Spore",
+          "group": "Bosses",
+          "health": 9,
+          "attack": 0,
+          "boss": true
+        },
+        {
+          "name": "Spiderpus",
+          "group": "Level 1",
+          "health": 2,
+          "attack": 3
+        },
+        {
+          "name": "Swarm Ripostle",
+          "group": "Level 2",
+          "health": 5,
+          "attack": 2
+        },
+        {
+          "name": "Mess o' Maggots",
+          "group": "Level 1",
+          "health": 3,
+          "attack": 3
+        },
+        {
+          "name": "Drone Alone 2",
+          "group": "Level 1",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Beevolver",
+          "group": "Level 2",
+          "health": 7,
+          "attack": 2
+        },
+        {
+          "name": "Ichorblight",
+          "group": "Level 2",
+          "health": 4,
+          "attack": 0
+        },
+        {
+          "name": "Beeserker",
+          "group": "Level 2",
+          "health": 5,
+          "attack": 3
+        },
+        {
+          "name": "Defeatle",
+          "group": "Level 2",
+          "health": 5,
+          "attack": 3
+        },
+        {
+          "name": "Total War Spore",
+          "group": "Level 2",
+          "health": 5,
+          "attack": 3
+        },
+        {
+          "name": "Decaying Mantis",
+          "group": "Level 2",
+          "health": 5,
+          "attack": 3
+        },
+        {
+          "name": "Sporeseed Seekers",
+          "group": "Level 1",
+          "health": 2,
+          "attack": 2
+        },
+        {
+          "name": "Drone Alone 3",
+          "group": "Level 2",
+          "health": 6,
+          "attack": 2
+        },
+        {
+          "name": "Lunar Sentinel",
+          "group": "Level 2",
+          "health": 8,
+          "attack": 2
+        },
+        {
+          "name": "Enthralled Corps",
+          "group": "Level 1",
+          "health": 5,
+          "attack": 1
+        },
+        {
+          "name": "Lotsa Larvae",
+          "group": "Level 1",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Slaughtermaw",
+          "group": "Level 2",
+          "health": 2,
+          "attack": 2
+        },
+        {
+          "name": "Plasmablight",
+          "group": "Level 2",
+          "health": 6,
+          "attack": 2
+        },
+        {
+          "name": "Marrow Locust",
+          "group": "Level 2",
+          "health": 2,
+          "attack": 4
+        },
+        {
+          "name": "Drone Alone",
+          "group": "Level 1",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Big Sucker",
+          "group": "Level 1",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Deceitle",
+          "group": "Level 1",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Craterfly",
+          "group": "Level 1",
+          "health": 6,
+          "attack": 1
+        },
+        {
+          "name": "Goremouth",
+          "group": "Level 1",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Mortoise",
+          "group": "Level 2",
+          "health": 7,
+          "attack": 3
+        },
+        {
+          "name": "War Spore",
+          "group": "Level 1",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Slaying Mantis",
+          "group": "Level 1",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Crater Creeper",
+          "group": "Level 1",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Lost Sentinel",
+          "group": "Level 1",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Gutterdie",
+          "group": "Level 2",
+          "health": 8,
+          "attack": 1
+        },
+        {
+          "name": "Beeseeker",
+          "group": "Level 1",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Swarm Akillyte",
+          "group": "Level 2",
+          "health": 5,
+          "attack": 2
+        },
+        {
+          "name": "Subsumed Sentinel",
+          "group": "Level 1",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Discreetle",
+          "group": "Level 1",
+          "health": 1,
+          "attack": 2
+        },
+        {
+          "name": "Sporeseed Tempest",
+          "group": "Level 2",
+          "health": 6,
+          "attack": 2
+        },
+        {
+          "name": "Wild Sporeseeds",
+          "group": "Level 1",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Hurtle",
+          "group": "Level 1",
+          "health": 6,
+          "attack": 1
+        },
+        {
+          "name": "Swarm Acolyte",
+          "group": "Level 1",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Crater Stalker",
+          "group": "Level 2",
+          "health": 5,
+          "attack": 1
+        },
+        {
+          "name": "Parablight",
+          "group": "Level 1",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Flesh Locust",
+          "group": "Level 1",
+          "health": 6,
+          "attack": 2
+        },
+        {
+          "name": "Enthralled Kin",
+          "group": "Level 1",
+          "health": 1,
+          "attack": 3
+        },
+        {
+          "name": "Swarm Apostle",
+          "group": "Level 1",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Gutterfly",
+          "group": "Level 1",
+          "health": 6,
+          "attack": 1
+        },
+        {
+          "name": "Arachsquid",
+          "group": "Level 2",
+          "health": 7,
+          "attack": 4
+        },
+        {
+          "name": "Thrall",
+          "group": "Level 2",
+          "health": 4,
+          "attack": 2
+        }
+      ]
+    },
+    {
+      "slug": "too-many-bones",
+      "name": "Too Many Bones",
+      "bossLabel": "Tyrant",
+      "bosses": [
+        {
+          "siteId": 8,
+          "name": "Barnacle",
+          "siteName": "Barnacle"
+        },
+        {
+          "siteId": 9,
+          "name": "Cinder",
+          "siteName": "Cinder"
+        },
+        {
+          "siteId": 6,
+          "name": "Nom",
+          "siteName": "Nom"
+        },
+        {
+          "siteId": 7,
+          "name": "Oxide",
+          "siteName": "Oxide"
+        }
+      ],
+      "ranks": [
+        {
+          "siteId": 6,
+          "value": 1
+        },
+        {
+          "siteId": 7,
+          "value": 2
+        },
+        {
+          "siteId": 8,
+          "value": 3
+        },
+        {
+          "siteId": 9,
+          "value": 4
+        },
+        {
+          "siteId": 10,
+          "value": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "siteId": 4,
+          "label": "Victory",
+          "siteLabel": "Victory!",
+          "isVictory": true
+        },
+        {
+          "siteId": 6,
+          "label": "Defeated before boss",
+          "siteLabel": "I was defeated before reaching the boss encounter.",
+          "isVictory": false
+        },
+        {
+          "siteId": 5,
+          "label": "Defeated during boss",
+          "siteLabel": "I was defeated during the boss encounter.",
+          "isVictory": false
+        }
+      ],
+      "boxHeroes": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "enemies": [
+        {
+          "name": "Cinder",
+          "group": "Tyrants",
+          "health": 10,
+          "attack": 3,
+          "boss": true
+        },
+        {
+          "name": "Nom",
+          "group": "Tyrants",
+          "health": 9,
+          "attack": 2,
+          "boss": true
+        },
+        {
+          "name": "Barnacle",
+          "group": "Tyrants",
+          "health": 8,
+          "attack": 2,
+          "boss": true
+        },
+        {
+          "name": "Oxide",
+          "group": "Tyrants",
+          "health": 8,
+          "attack": 3,
+          "boss": true
+        },
+        {
+          "name": "Clay Golem",
+          "group": "1pt Baddies",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Pantherafish",
+          "group": "1pt Baddies",
+          "health": 2,
+          "attack": 2
+        },
+        {
+          "name": "Troll Hermit",
+          "group": "1pt Baddies",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Owlbear Cub",
+          "group": "1pt Baddies",
+          "health": 2,
+          "attackNote": "X"
+        },
+        {
+          "name": "Kobold Elite",
+          "group": "5pt Baddies",
+          "health": 4,
+          "attack": 3
+        },
+        {
+          "name": "Elimbinator",
+          "group": "5pt Baddies",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Bog Ribbits",
+          "group": "1pt Baddies",
+          "health": 1,
+          "attack": 1
+        },
+        {
+          "name": "Goblin Devastator",
+          "group": "1pt Baddies",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Miniphage",
+          "group": "5pt Baddies",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Troll Brewmaster",
+          "group": "5pt Baddies",
+          "health": 8,
+          "attack": 3
+        },
+        {
+          "name": "Stone Golem",
+          "group": "5pt Baddies",
+          "health": 3,
+          "attack": 3
+        },
+        {
+          "name": "Doomed Experiment",
+          "group": "5pt Baddies",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Goblin Artificer",
+          "group": "5pt Baddies",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Troll Savant",
+          "group": "5pt Baddies",
+          "health": 5,
+          "attack": 2
+        },
+        {
+          "name": "Scarpion",
+          "group": "5pt Baddies",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Goblin Sapper",
+          "group": "5pt Baddies",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Dire Wolf",
+          "group": "5pt Baddies",
+          "health": 5,
+          "attack": 2
+        },
+        {
+          "name": "Orc Shaman",
+          "group": "5pt Baddies",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Orc Rager",
+          "group": "5pt Baddies",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Kobold Lieutenant",
+          "group": "5pt Baddies",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Orc Deserter",
+          "group": "1pt Baddies",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Orc Grunt",
+          "group": "1pt Baddies",
+          "health": 2,
+          "attack": 2
+        },
+        {
+          "name": "Abomination Prototype",
+          "group": "1pt Baddies",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Krelln Darkstalker",
+          "group": "1pt Baddies",
+          "health": 1,
+          "attack": 2
+        },
+        {
+          "name": "Timid Geophage",
+          "group": "1pt Baddies",
+          "health": 4,
+          "attack": 0
+        },
+        {
+          "name": "Goblin Bomber",
+          "group": "1pt Baddies",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Dorc",
+          "group": "1pt Baddies",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Lab Escapee",
+          "group": "1pt Baddies",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Vile Mushroom",
+          "group": "1pt Baddies",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Troll Romper",
+          "group": "1pt Baddies",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Modified Farm Equipment",
+          "group": "1pt Baddies",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Mech Polaris",
+          "group": "1pt Baddies",
+          "health": 2,
+          "attack": 2
+        },
+        {
+          "name": "Dire Wolf Pup",
+          "group": "1pt Baddies",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Dragon Bitty",
+          "group": "1pt Baddies",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Dragon Whelp",
+          "group": "1pt Baddies",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Krellp",
+          "group": "1pt Baddies",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Koboldyte",
+          "group": "1pt Baddies",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Kobold Tenderfoot",
+          "group": "1pt Baddies",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Goblin Broadcaster",
+          "group": "1pt Baddies",
+          "health": 1,
+          "attack": 1
+        },
+        {
+          "name": "G-800",
+          "group": "1pt Baddies",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Tipsy Troll",
+          "group": "1pt Baddies",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Krelln Lurer",
+          "group": "1pt Baddies",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Troglodyte Scurrier",
+          "group": "1pt Baddies",
+          "health": 2,
+          "attack": 2
+        },
+        {
+          "name": "Tentacle 1",
+          "group": "Tentacles",
+          "health": 2,
+          "attack": 3
+        },
+        {
+          "name": "Tentacle 2",
+          "group": "Tentacles",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Tentacle 3",
+          "group": "Tentacles",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Tentacle 4",
+          "group": "Tentacles",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Tentacle 5",
+          "group": "Tentacles",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Tentacle 6",
+          "group": "Tentacles",
+          "health": 1,
+          "attack": 1
+        },
+        {
+          "name": "Tentacle 7",
+          "group": "Tentacles",
+          "health": 2,
+          "attack": 2
+        },
+        {
+          "name": "Tentacle 8",
+          "group": "Tentacles",
+          "health": 3,
+          "attack": 2
+        }
+      ]
+    },
+    {
+      "slug": "hoplomachus-victorum",
+      "name": "Hoplomachus: Victorum",
+      "bossLabel": "Scion",
+      "bosses": [
+        {
+          "siteId": 10,
+          "name": "Camazotz",
+          "siteName": "Camazotz"
+        },
+        {
+          "siteId": 11,
+          "name": "Coalemus",
+          "siteName": "Coalemus"
+        },
+        {
+          "siteId": 12,
+          "name": "Div-e Sepid",
+          "siteName": "Div-e Sepid"
+        },
+        {
+          "siteId": 13,
+          "name": "Hydra",
+          "siteName": "Hydra"
+        },
+        {
+          "siteId": 14,
+          "name": "Itzam Cab Ain",
+          "siteName": "Itzam Cab Ain"
+        },
+        {
+          "siteId": 15,
+          "name": "Kalliope",
+          "siteName": "Kalliope"
+        },
+        {
+          "siteId": 16,
+          "name": "Pluto",
+          "siteName": "Pluto"
+        },
+        {
+          "siteId": 17,
+          "name": "Taotie",
+          "siteName": "Taotie"
+        },
+        {
+          "siteId": 18,
+          "name": "Zahkak",
+          "siteName": "Zahkak"
+        }
+      ],
+      "ranks": [
+        {
+          "siteId": 11,
+          "value": 1
+        },
+        {
+          "siteId": 12,
+          "value": 2
+        },
+        {
+          "siteId": 13,
+          "value": 3
+        },
+        {
+          "siteId": 14,
+          "value": 4
+        },
+        {
+          "siteId": 15,
+          "value": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "siteId": 7,
+          "label": "Victory",
+          "siteLabel": "Victory!",
+          "isVictory": true
+        },
+        {
+          "siteId": 8,
+          "label": "Defeated before boss",
+          "siteLabel": "I was defeated before reaching the boss encounter.",
+          "isVictory": false
+        },
+        {
+          "siteId": 9,
+          "label": "Defeated during boss",
+          "siteLabel": "I was defeated during the boss encounter.",
+          "isVictory": false
+        }
+      ],
+      "boxHeroes": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        18,
+        21
+      ],
+      "enemies": [
+        {
+          "name": "Kalliope",
+          "group": "Scions",
+          "health": 4,
+          "attack": 1,
+          "boss": true
+        },
+        {
+          "name": "Hydra",
+          "group": "Scions",
+          "health": 8,
+          "attack": 1,
+          "boss": true
+        },
+        {
+          "name": "Coalemus",
+          "group": "Scions",
+          "boss": true
+        },
+        {
+          "name": "Itzam Cab Ain",
+          "group": "Scions",
+          "health": 4,
+          "attack": 1,
+          "boss": true
+        },
+        {
+          "name": "Camazotz",
+          "group": "Scions",
+          "boss": true
+        },
+        {
+          "name": "Div-e Sepid",
+          "group": "Scions",
+          "health": 5,
+          "attack": 2,
+          "boss": true
+        },
+        {
+          "name": "Pluto",
+          "group": "Scions",
+          "health": 9,
+          "attack": 1,
+          "boss": true
+        },
+        {
+          "name": "Taotie",
+          "group": "Scions",
+          "health": 1,
+          "attack": 1,
+          "boss": true
+        },
+        {
+          "name": "Zahkak",
+          "group": "Scions",
+          "health": 3,
+          "attack": 1,
+          "boss": true
+        },
+        {
+          "name": "The Parthian",
+          "group": "Primuses",
+          "health": 3,
+          "attack": 2,
+          "primus": true
+        },
+        {
+          "name": "Bingqing",
+          "group": "Primuses",
+          "health": 7,
+          "attackNote": "X",
+          "primus": true
+        },
+        {
+          "name": "Stygiana",
+          "group": "Primuses",
+          "health": 4,
+          "attack": 2,
+          "primus": true
+        },
+        {
+          "name": "Decimus",
+          "group": "Primuses",
+          "health": 5,
+          "attack": 2,
+          "primus": true
+        },
+        {
+          "name": "Sea Strider",
+          "group": "Primuses",
+          "health": 4,
+          "attack": 2,
+          "primus": true
+        },
+        {
+          "name": "Aprilis",
+          "group": "Primuses",
+          "health": 4,
+          "attack": 1,
+          "primus": true
+        },
+        {
+          "name": "Virago",
+          "group": "Primuses",
+          "health": 5,
+          "attack": 1,
+          "primus": true
+        },
+        {
+          "name": "Nox",
+          "group": "Primuses",
+          "health": 12,
+          "attack": 1,
+          "primus": true
+        },
+        {
+          "name": "Krakenlance",
+          "group": "Primuses",
+          "health": 5,
+          "attack": 2,
+          "primus": true
+        },
+        {
+          "name": "Retiarius",
+          "group": "Bloodshed",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Crossbowman",
+          "group": "Bloodshed",
+          "health": 2,
+          "attack": 3
+        },
+        {
+          "name": "Bolas Hunter",
+          "group": "Bloodshed",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Calgacus of Caledonia",
+          "group": "Bloodshed",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Harpoonsman",
+          "group": "Bloodshed",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Camel Knight",
+          "group": "Bloodshed",
+          "health": 6,
+          "attack": 1
+        },
+        {
+          "name": "Serpent",
+          "group": "Bloodshed",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Volcanic Brute",
+          "group": "Bloodshed",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Dimachaerus",
+          "group": "Bloodshed",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Provocator",
+          "group": "Bloodshed",
+          "health": 1,
+          "attack": 1
+        },
+        {
+          "name": "Obscene Oracle",
+          "group": "Bloodshed",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Murmillo",
+          "group": "Bloodshed",
+          "health": 1,
+          "attack": 3
+        },
+        {
+          "name": "Veles",
+          "group": "Bloodshed",
+          "health": 1,
+          "attack": 3
+        },
+        {
+          "name": "Xiezhi",
+          "group": "Bloodshed",
+          "health": 4,
+          "attack": 3
+        },
+        {
+          "name": "Ignean",
+          "group": "Bloodshed",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Ahalpuh",
+          "group": "Bloodshed",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Peltast",
+          "group": "Bloodshed",
+          "health": 2,
+          "attack": 2
+        },
+        {
+          "name": "Qiongqi",
+          "group": "Bloodshed",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Mert of Egypt",
+          "group": "Bloodshed",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Cestus",
+          "group": "Sport",
+          "health": 2,
+          "attack": 2
+        },
+        {
+          "name": "Nacom",
+          "group": "Sport",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Reptilian",
+          "group": "Sport",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Shale Lurker",
+          "group": "Sport",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Chimera",
+          "group": "Sport",
+          "health": 3,
+          "attack": 3
+        },
+        {
+          "name": "Meteor Fighter",
+          "group": "Sport",
+          "health": 2,
+          "attack": 2
+        },
+        {
+          "name": "Bustuarius",
+          "group": "Sport",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Cataphract",
+          "group": "Sport",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Ruhani of Tamilakam",
+          "group": "Sport",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Warseer",
+          "group": "Sport",
+          "health": 2,
+          "attack": 2
+        },
+        {
+          "name": "Immensus",
+          "group": "Sport",
+          "health": 3,
+          "attack": 0
+        },
+        {
+          "name": "Sagittarius",
+          "group": "Sport",
+          "health": 3,
+          "attack": 3
+        },
+        {
+          "name": "Djinn",
+          "group": "Sport",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Magma Rager",
+          "group": "Sport",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Secutor",
+          "group": "Sport",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Fury",
+          "group": "Sport",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Zeno of Gargarei",
+          "group": "Sport",
+          "health": 4,
+          "attack": 3
+        }
+      ]
+    },
+    {
+      "slug": "cloudspire",
+      "name": "Cloudspire",
+      "bossLabel": "Boss",
+      "bosses": [
+        {
+          "siteId": 25,
+          "name": "Grafted Bydra Graam",
+          "siteName": "Grafted Bydra Graam"
+        },
+        {
+          "siteId": 26,
+          "name": "Grafted Captain Tinbeard",
+          "siteName": "Grafted Captain Tinbeard"
+        },
+        {
+          "siteId": 27,
+          "name": "Grafted Echri",
+          "siteName": "Grafted Echri"
+        },
+        {
+          "siteId": 28,
+          "name": "Grafted Fission",
+          "siteName": "Grafted Fission"
+        },
+        {
+          "siteId": 29,
+          "name": "Grafted General Eko",
+          "siteName": "Grafted General Eko"
+        },
+        {
+          "siteId": 30,
+          "name": "Grafted Jaelana Nestor",
+          "siteName": "Grafted Jaelana Nestor"
+        },
+        {
+          "siteId": 31,
+          "name": "Grafted Kram the Mighty",
+          "siteName": "Grafted Kram the Mighty"
+        },
+        {
+          "siteId": 32,
+          "name": "Grafted Netourut",
+          "siteName": "Grafted Netourut"
+        },
+        {
+          "siteId": 33,
+          "name": "Grafted Wyvankaye",
+          "siteName": "Grafted Wyvankaye"
+        }
+      ],
+      "ranks": [
+        {
+          "siteId": 64,
+          "value": 1
+        },
+        {
+          "siteId": 65,
+          "value": 2
+        },
+        {
+          "siteId": 66,
+          "value": 3
+        },
+        {
+          "siteId": 67,
+          "value": 4
+        }
+      ],
+      "outcomes": [
+        {
+          "siteId": 26,
+          "label": "Victory",
+          "siteLabel": "Victory!",
+          "isVictory": true
+        },
+        {
+          "siteId": 27,
+          "label": "Defeated before final boss",
+          "siteLabel": "I was defeated before the final boss was activated.",
+          "isVictory": false
+        },
+        {
+          "siteId": 28,
+          "label": "Defeated after final boss activated",
+          "siteLabel": "I was defeated after the final boss was activated.",
+          "isVictory": false
+        }
+      ],
+      "boxHeroes": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "enemies": [
+        {
+          "name": "Grafted Kram the Mighty",
+          "group": "Grafted Heroes",
+          "health": 10,
+          "attack": 3,
+          "boss": true
+        },
+        {
+          "name": "Grafted Wyvankaye",
+          "group": "Grafted Heroes",
+          "health": 10,
+          "attack": 2,
+          "boss": true
+        },
+        {
+          "name": "Grafted Bydra Graam",
+          "group": "Grafted Heroes",
+          "health": 9,
+          "attack": 3,
+          "boss": true
+        },
+        {
+          "name": "Grafted Echri",
+          "group": "Grafted Heroes",
+          "health": 8,
+          "attack": 3,
+          "boss": true
+        },
+        {
+          "name": "Grafted Captain Tinbeard",
+          "group": "Grafted Heroes",
+          "health": 8,
+          "attack": 2,
+          "boss": true
+        },
+        {
+          "name": "Grafted General Eko",
+          "group": "Grafted Heroes",
+          "health": 9,
+          "attack": 4,
+          "boss": true
+        },
+        {
+          "name": "Grafted Fission",
+          "group": "Grafted Heroes",
+          "health": 10,
+          "attack": 4,
+          "boss": true
+        },
+        {
+          "name": "Grafted Jaelana Nestor",
+          "group": "Grafted Heroes",
+          "health": 8,
+          "attack": 2,
+          "boss": true
+        },
+        {
+          "name": "Grafted Netourut",
+          "group": "Grafted Heroes",
+          "health": 8,
+          "attack": 4,
+          "boss": true
+        },
+        {
+          "name": "Grafted Dywen",
+          "group": "Mini-bosses",
+          "health": 4,
+          "attack": 3
+        },
+        {
+          "name": "Grafted Anvasse",
+          "group": "Mini-bosses",
+          "health": 5,
+          "attack": 3
+        },
+        {
+          "name": "Grafted Ocjab",
+          "group": "Mini-bosses",
+          "health": 5,
+          "attack": 3
+        },
+        {
+          "name": "Grafted Mistbane",
+          "group": "Mini-bosses",
+          "health": 4,
+          "attack": 3
+        },
+        {
+          "name": "Grafted Darb",
+          "group": "Mini-bosses",
+          "health": 5,
+          "attack": 2
+        },
+        {
+          "name": "Grafted Yewsel",
+          "group": "Mini-bosses",
+          "health": 3,
+          "attack": 3
+        },
+        {
+          "name": "Grafted Awsh",
+          "group": "Mini-bosses",
+          "health": 6,
+          "attack": 3
+        },
+        {
+          "name": "Grafted Chira",
+          "group": "Mini-bosses",
+          "health": 5,
+          "attack": 3
+        },
+        {
+          "name": "Grafted Rime",
+          "group": "Mini-bosses",
+          "health": 5,
+          "attack": 3
+        },
+        {
+          "name": "Militia Defender",
+          "group": "Enemies",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Militia Ranger",
+          "group": "Enemies",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Zerker Rebel",
+          "group": "Enemies",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Powder Monkey",
+          "group": "Enemies",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Glider",
+          "group": "Enemies",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Corsair",
+          "group": "Enemies",
+          "health": 5,
+          "attack": 2
+        },
+        {
+          "name": "Harrier",
+          "group": "Enemies",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Joust",
+          "group": "Enemies",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Royal Talon",
+          "group": "Enemies",
+          "health": 6,
+          "attack": 2
+        },
+        {
+          "name": "Water",
+          "group": "Enemies",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Wind",
+          "group": "Enemies",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Lava",
+          "group": "Enemies",
+          "health": 6,
+          "attack": 0
+        },
+        {
+          "name": "Echo Scout",
+          "group": "Enemies",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Sky Fox",
+          "group": "Enemies",
+          "health": 2,
+          "attack": 2
+        },
+        {
+          "name": "Demolitionist",
+          "group": "Enemies",
+          "health": 5,
+          "attack": 2
+        },
+        {
+          "name": "Taproot",
+          "group": "Enemies",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "War Briar",
+          "group": "Enemies",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Grizzled Oak",
+          "group": "Enemies",
+          "health": 5,
+          "attack": 3
+        },
+        {
+          "name": "Skitter",
+          "group": "Enemies",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Mugwump",
+          "group": "Enemies",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Geckweb",
+          "group": "Enemies",
+          "health": 5,
+          "attack": 1
+        },
+        {
+          "name": "Aegis",
+          "group": "Enemies",
+          "health": 5,
+          "attack": 1
+        },
+        {
+          "name": "Dispatch",
+          "group": "Enemies",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Forsaken",
+          "group": "Enemies",
+          "health": 5,
+          "attack": 2
+        },
+        {
+          "name": "Conduit",
+          "group": "Enemies",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Bishop",
+          "group": "Enemies",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Void",
+          "group": "Enemies",
+          "health": 5,
+          "attack": 2
+        }
+      ]
+    },
+    {
+      "slug": "tanglewoods-red",
+      "name": "Tanglewoods: Red",
+      "bossLabel": "Boss",
+      "bosses": [
+        {
+          "siteId": 19,
+          "name": "Big Bad Wolf",
+          "siteName": "Big Bad Wolf"
+        },
+        {
+          "siteId": 20,
+          "name": "Bigger, Badder Wolf",
+          "siteName": "Bigger, Badder Wolf"
+        }
+      ],
+      "ranks": [
+        {
+          "siteId": 16,
+          "value": 0
+        },
+        {
+          "siteId": 17,
+          "value": 1
+        },
+        {
+          "siteId": 18,
+          "value": 2
+        },
+        {
+          "siteId": 19,
+          "value": 3
+        },
+        {
+          "siteId": 20,
+          "value": 4
+        },
+        {
+          "siteId": 21,
+          "value": 5
+        },
+        {
+          "siteId": 22,
+          "value": 6
+        },
+        {
+          "siteId": 23,
+          "value": 7
+        },
+        {
+          "siteId": 24,
+          "value": 8
+        },
+        {
+          "siteId": 25,
+          "value": 9
+        },
+        {
+          "siteId": 26,
+          "value": 10
+        }
+      ],
+      "outcomes": [
+        {
+          "siteId": 10,
+          "label": "Victory",
+          "siteLabel": "Victory!",
+          "isVictory": true
+        },
+        {
+          "siteId": 12,
+          "label": "Defeated before boss",
+          "siteLabel": "I was defeated before reaching the boss encounter.",
+          "isVictory": false
+        },
+        {
+          "siteId": 11,
+          "label": "Defeated during boss",
+          "siteLabel": "I was defeated during the boss encounter.",
+          "isVictory": false
+        }
+      ],
+      "boxHeroes": [
+        27,
+        24,
+        26,
+        25,
+        23
+      ],
+      "enemies": [
+        {
+          "name": "Big Bad Wolf",
+          "group": "Bosses",
+          "health": 9,
+          "attack": 3,
+          "boss": true
+        },
+        {
+          "name": "Bigger, Badder Wolf",
+          "group": "Bosses",
+          "health": 9,
+          "attack": 1,
+          "boss": true
+        },
+        {
+          "name": "Growl",
+          "group": "Wolf Pack",
+          "health": 6,
+          "attack": 2
+        },
+        {
+          "name": "Howl",
+          "group": "Wolf Pack",
+          "health": 6,
+          "attack": 1
+        },
+        {
+          "name": "Rowdy",
+          "group": "Wolf Pack",
+          "health": 5,
+          "attack": 2
+        },
+        {
+          "name": "Guzzle",
+          "group": "Wolf Pack",
+          "health": 13,
+          "attack": 3
+        },
+        {
+          "name": "Prowl",
+          "group": "Wolf Pack",
+          "health": 7,
+          "attack": 1
+        },
+        {
+          "name": "Funnel Web",
+          "group": "Enemies",
+          "health": 7,
+          "attack": 1
+        },
+        {
+          "name": "Dark Fairy",
+          "group": "Enemies",
+          "health": 1,
+          "attack": 1
+        },
+        {
+          "name": "Wevill",
+          "group": "Enemies",
+          "health": 1,
+          "attack": 1
+        },
+        {
+          "name": "Runt",
+          "group": "Enemies",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Wyther",
+          "group": "Enemies",
+          "health": 1,
+          "attack": 1
+        },
+        {
+          "name": "Briurn",
+          "group": "Enemies",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Pryckle",
+          "group": "Enemies",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Renn",
+          "group": "Enemies",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Porcupill",
+          "group": "Enemies",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Toadstool Imp",
+          "group": "Enemies",
+          "health": 1,
+          "attack": 2
+        },
+        {
+          "name": "Slyther",
+          "group": "Enemies",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Craw",
+          "group": "Enemies",
+          "health": 5,
+          "attack": 1
+        },
+        {
+          "name": "Shellduun",
+          "group": "Enemies",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Blunder Boss",
+          "group": "Enemies",
+          "health": 8,
+          "attack": 2
+        },
+        {
+          "name": "Angry Roots",
+          "group": "Enemies",
+          "health": 9,
+          "attack": 3
+        },
+        {
+          "name": "Yuummon",
+          "group": "Enemies",
+          "health": 7,
+          "attack": 2
+        },
+        {
+          "name": "Abakkon",
+          "group": "Enemies",
+          "health": 7,
+          "attack": 1
+        },
+        {
+          "name": "Stundurn",
+          "group": "Enemies",
+          "health": 6,
+          "attack": 3
+        },
+        {
+          "name": "Stompum",
+          "group": "Enemies",
+          "health": 8,
+          "attack": 3
+        },
+        {
+          "name": "Feral Leprechaun",
+          "group": "Enemies",
+          "health": 10,
+          "attack": 2
+        }
+      ]
+    },
+    {
+      "slug": "tanglewoods-gold",
+      "name": "Tanglewoods: Gold",
+      "bossLabel": "Boss",
+      "bosses": [
+        {
+          "siteId": 21,
+          "name": "The Three Bears",
+          "siteName": "The Three Bears"
+        }
+      ],
+      "ranks": [
+        {
+          "siteId": 27,
+          "value": 0
+        },
+        {
+          "siteId": 28,
+          "value": 1
+        },
+        {
+          "siteId": 29,
+          "value": 2
+        },
+        {
+          "siteId": 30,
+          "value": 3
+        },
+        {
+          "siteId": 31,
+          "value": 4
+        },
+        {
+          "siteId": 32,
+          "value": 5
+        },
+        {
+          "siteId": 33,
+          "value": 6
+        },
+        {
+          "siteId": 34,
+          "value": 7
+        },
+        {
+          "siteId": 35,
+          "value": 8
+        },
+        {
+          "siteId": 36,
+          "value": 9
+        },
+        {
+          "siteId": 37,
+          "value": 10
+        }
+      ],
+      "outcomes": [
+        {
+          "siteId": 13,
+          "label": "Victory",
+          "siteLabel": "Victory!",
+          "isVictory": true
+        },
+        {
+          "siteId": 14,
+          "label": "Defeated before the Three Bears",
+          "siteLabel": "I was defeated before defeating the Three Bears.",
+          "isVictory": false
+        },
+        {
+          "siteId": 15,
+          "label": "Defeated facing the Three Bears",
+          "siteLabel": "I was defeated while facing at least on of the Three Bears.",
+          "isVictory": false
+        }
+      ],
+      "boxHeroes": [
+        28,
+        31,
+        30,
+        29,
+        32
+      ],
+      "enemies": [
+        {
+          "name": "Papa Bear",
+          "group": "Bears",
+          "health": 7,
+          "attack": 2,
+          "boss": true
+        },
+        {
+          "name": "Mama Bear",
+          "group": "Bears",
+          "health": 8,
+          "attack": 1,
+          "boss": true
+        },
+        {
+          "name": "Baby Bear",
+          "group": "Bears",
+          "health": 4,
+          "attack": 1,
+          "boss": true
+        },
+        {
+          "name": "Angry Roots (Day)",
+          "group": "Day",
+          "health": 6,
+          "attack": 2
+        },
+        {
+          "name": "Besp Oak (Day)",
+          "group": "Day",
+          "health": 7,
+          "attack": 2
+        },
+        {
+          "name": "Big Bad Wolf Spider (Day)",
+          "group": "Day",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Birchum (Day)",
+          "group": "Day",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Briurn (Day)",
+          "group": "Day",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Dark Fairy (Day)",
+          "group": "Day",
+          "health": 1,
+          "attack": 1
+        },
+        {
+          "name": "Devious Darcy (Day)",
+          "group": "Day",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Elder Trolls (Day)",
+          "group": "Day",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Forest Dragon (Day)",
+          "group": "Day",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Funnel Web (Day)",
+          "group": "Day",
+          "health": 5,
+          "attack": 1
+        },
+        {
+          "name": "Fury Toad (Day)",
+          "group": "Day",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Gnome Alone (Day)",
+          "group": "Day",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Gnome Chompski (Day)",
+          "group": "Day",
+          "health": 4,
+          "attack": 0
+        },
+        {
+          "name": "Gnome on the Range (Day)",
+          "group": "Day",
+          "health": 5,
+          "attack": 1
+        },
+        {
+          "name": "Hats-a-Moray (Day)",
+          "group": "Day",
+          "health": 1,
+          "attack": 1
+        },
+        {
+          "name": "Lepre-Con-Man (Day)",
+          "group": "Day",
+          "health": 6,
+          "attack": 2
+        },
+        {
+          "name": "Pryckle (Day)",
+          "group": "Day",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Renn (Day)",
+          "group": "Day",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Fetid Cheese Guy (Day)",
+          "group": "Day",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Straw Troll (Day)",
+          "group": "Day",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Thunder Gnome (Day)",
+          "group": "Day",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Tina Fae (Day)",
+          "group": "Day",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Toad Warrior (Day)",
+          "group": "Day",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Unshod Centaur (Day)",
+          "group": "Day",
+          "health": 8,
+          "attack": 0
+        },
+        {
+          "name": "Wereduck (Day)",
+          "group": "Day",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Wyther (Day)",
+          "group": "Day",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Angry Roots (Night)",
+          "group": "Night",
+          "health": 7,
+          "attack": 2
+        },
+        {
+          "name": "Besp Oak (Night)",
+          "group": "Night",
+          "health": 5,
+          "attack": 2
+        },
+        {
+          "name": "Big Bad Wolf Spider (Night)",
+          "group": "Night",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Birchum (Night)",
+          "group": "Night",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Briurn (Night)",
+          "group": "Night",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Dark Fairy (Night)",
+          "group": "Night",
+          "health": 2,
+          "attack": 2
+        },
+        {
+          "name": "Devious Darcy (Night)",
+          "group": "Night",
+          "health": 5,
+          "attack": 1
+        },
+        {
+          "name": "Elder Trolls (Night)",
+          "group": "Night",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Forest Dragon (Night)",
+          "group": "Night",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Funnel Web (Night)",
+          "group": "Night",
+          "health": 7,
+          "attack": 2
+        },
+        {
+          "name": "Fury Toad (Night)",
+          "group": "Night",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Gnome Alone (Night)",
+          "group": "Night",
+          "health": 6,
+          "attack": 3
+        },
+        {
+          "name": "Gnome Chompski (Night)",
+          "group": "Night",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Gnome on the Range (Night)",
+          "group": "Night",
+          "health": 5,
+          "attack": 1
+        },
+        {
+          "name": "Hats-a-Moray (Night)",
+          "group": "Night",
+          "health": 1,
+          "attack": 1
+        },
+        {
+          "name": "Lepre-Con-Man (Night)",
+          "group": "Night",
+          "health": 6,
+          "attack": 2
+        },
+        {
+          "name": "Pryckle (Night)",
+          "group": "Night",
+          "health": 5,
+          "attack": 2
+        },
+        {
+          "name": "Renn (Night)",
+          "group": "Night",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Fetid Cheese Guy (Night)",
+          "group": "Night",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Straw Troll (Night)",
+          "group": "Night",
+          "health": 6,
+          "attack": 1
+        },
+        {
+          "name": "Thunder Gnome (Night)",
+          "group": "Night",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Tina Fae (Night)",
+          "group": "Night",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Toad Warrior (Night)",
+          "group": "Night",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Unshod Centaur (Night)",
+          "group": "Night",
+          "health": 12,
+          "attack": 0
+        },
+        {
+          "name": "Wereduck (Night)",
+          "group": "Night",
+          "health": 5,
+          "attack": 2
+        },
+        {
+          "name": "Wyther (Night)",
+          "group": "Night",
+          "health": 4,
+          "attack": 1
+        }
+      ]
+    },
+    {
+      "slug": "tanglewoods-white",
+      "name": "Tanglewoods: White",
+      "bossLabel": "Boss",
+      "bosses": [
+        {
+          "siteId": 22,
+          "name": "The Evil Stepmother",
+          "siteName": "The Evil Stepmother"
+        }
+      ],
+      "ranks": [
+        {
+          "siteId": 38,
+          "value": 0
+        },
+        {
+          "siteId": 39,
+          "value": 1
+        },
+        {
+          "siteId": 40,
+          "value": 2
+        },
+        {
+          "siteId": 41,
+          "value": 3
+        },
+        {
+          "siteId": 42,
+          "value": 4
+        },
+        {
+          "siteId": 43,
+          "value": 5
+        },
+        {
+          "siteId": 44,
+          "value": 6
+        },
+        {
+          "siteId": 45,
+          "value": 7
+        },
+        {
+          "siteId": 46,
+          "value": 8
+        },
+        {
+          "siteId": 47,
+          "value": 9
+        },
+        {
+          "siteId": 48,
+          "value": 10
+        }
+      ],
+      "outcomes": [
+        {
+          "siteId": 19,
+          "label": "Victory",
+          "siteLabel": "Victory!",
+          "isVictory": true
+        },
+        {
+          "siteId": 20,
+          "label": "Defeated before the castle",
+          "siteLabel": "I was defeated before reaching the castle.",
+          "isVictory": false
+        },
+        {
+          "siteId": 21,
+          "label": "Defeated fighting a castle boss",
+          "siteLabel": "I was defeated while fighting a castle boss.",
+          "isVictory": false
+        }
+      ],
+      "boxHeroes": [
+        36,
+        34,
+        33,
+        35,
+        37
+      ],
+      "enemies": [
+        {
+          "name": "The Ogre Chef",
+          "group": "Castle Bosses",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "The Magic Mirror",
+          "group": "Castle Bosses",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "The Turncoat Dwarf",
+          "group": "Castle Bosses",
+          "health": 4,
+          "attack": 3
+        },
+        {
+          "name": "The Crystal Undertaker",
+          "group": "Castle Bosses",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "The Poison Goldsmith",
+          "group": "Castle Bosses",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "The Witch Queen",
+          "group": "Castle Bosses",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "The Evil Stepmother",
+          "group": "Bosses",
+          "health": 8,
+          "attack": 2,
+          "boss": true
+        },
+        {
+          "name": "Comb Seller Carl",
+          "group": "Enemies",
+          "health": 6,
+          "attack": 1
+        },
+        {
+          "name": "Cracked Mirror",
+          "group": "Enemies",
+          "health": 6,
+          "attack": 2
+        },
+        {
+          "name": "Cutthroat Clothier",
+          "group": "Enemies",
+          "health": 6,
+          "attack": 2
+        },
+        {
+          "name": "Dark Fairy",
+          "group": "Enemies",
+          "health": 2,
+          "attack": 2
+        },
+        {
+          "name": "Big Bad Wolf Spider",
+          "group": "Enemies",
+          "health": 6,
+          "attack": 3
+        },
+        {
+          "name": "Heartless Boar",
+          "group": "Enemies",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Baker of Brutality",
+          "group": "Enemies",
+          "health": 6,
+          "attack": 2
+        },
+        {
+          "name": "Forest Dragon",
+          "group": "Enemies",
+          "health": 7,
+          "attack": 3
+        },
+        {
+          "name": "Ice Giant",
+          "group": "Enemies",
+          "health": 5,
+          "attack": 2
+        },
+        {
+          "name": "Devilish Moonbeam",
+          "group": "Enemies",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Korrigan",
+          "group": "Enemies",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Renn",
+          "group": "Enemies",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Tongueless Dog",
+          "group": "Enemies",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Trickster Trout",
+          "group": "Enemies",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Wyther",
+          "group": "Enemies",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Starving Stone",
+          "group": "Enemies",
+          "health": 5,
+          "attack": 2
+        },
+        {
+          "name": "Yuummon",
+          "group": "Enemies",
+          "health": 5,
+          "attack": 2
+        },
+        {
+          "name": "Toadstool Imp",
+          "group": "Enemies",
+          "health": 5,
+          "attack": 1
+        },
+        {
+          "name": "Pernicious Pie Purveyor",
+          "group": "Enemies",
+          "health": 6,
+          "attack": 1
+        },
+        {
+          "name": "Silver Tree",
+          "group": "Enemies",
+          "health": 6,
+          "attack": 2
+        }
+      ]
+    },
+    {
+      "slug": "tanglewoods-baba-yaga",
+      "name": "Tanglewoods: Baba Yaga",
+      "bossLabel": "Boss",
+      "bosses": [
+        {
+          "siteId": 23,
+          "name": "Baba Yaga",
+          "siteName": "Baba Yaga"
+        }
+      ],
+      "ranks": [
+        {
+          "siteId": 49,
+          "value": 1
+        },
+        {
+          "siteId": 50,
+          "value": 2
+        },
+        {
+          "siteId": 51,
+          "value": 3
+        },
+        {
+          "siteId": 52,
+          "value": 4
+        }
+      ],
+      "outcomes": [
+        {
+          "siteId": 22,
+          "label": "Victory",
+          "siteLabel": "Victory!",
+          "isVictory": true
+        },
+        {
+          "siteId": 23,
+          "label": "Defeated before campaign bosses",
+          "siteLabel": "I was defeated before reaching the campaign boss fights.",
+          "isVictory": false
+        },
+        {
+          "siteId": 24,
+          "label": "Defeated by the Chicken House",
+          "siteLabel": "I was defeated during the Chicken House boss fight.",
+          "isVictory": false
+        },
+        {
+          "siteId": 25,
+          "label": "Defeated by Baba Yaga",
+          "siteLabel": "I was defeated during the Baba Yaga boss fight.",
+          "isVictory": false
+        }
+      ],
+      "boxHeroes": [
+        45,
+        44,
+        41,
+        38,
+        40,
+        42,
+        39,
+        43
+      ],
+      "enemies": [
+        {
+          "name": "Chicken House",
+          "group": "Bosses",
+          "health": 25,
+          "attack": 2,
+          "boss": true
+        },
+        {
+          "name": "Baba Yaga",
+          "group": "Bosses",
+          "health": 7,
+          "attack": 2,
+          "boss": true
+        },
+        {
+          "name": "Bannik (Day)",
+          "group": "Reinforcements",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Bannik (Night)",
+          "group": "Reinforcements",
+          "health": 8,
+          "attack": 2
+        },
+        {
+          "name": "Cornflower Witch (Day)",
+          "group": "Reinforcements",
+          "health": 5,
+          "attack": 2
+        },
+        {
+          "name": "Cornflower Witch (Night)",
+          "group": "Reinforcements",
+          "health": 8,
+          "attack": 2
+        },
+        {
+          "name": "Dhampir",
+          "group": "Reinforcements",
+          "health": 5,
+          "attack": 4
+        },
+        {
+          "name": "Balachko",
+          "group": "Reinforcements",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Rusalka",
+          "group": "Reinforcements",
+          "health": 4,
+          "attack": 3
+        },
+        {
+          "name": "Drekavac",
+          "group": "Reinforcements",
+          "health": 9,
+          "attack": 2
+        }
+      ]
+    },
+    {
+      "slug": "tanglewoods-rose",
+      "name": "Tanglewoods: Rose",
+      "bossLabel": "Boss",
+      "bosses": [
+        {
+          "siteId": 24,
+          "name": "The Villagers",
+          "siteName": "The Villagers"
+        }
+      ],
+      "ranks": [
+        {
+          "siteId": 53,
+          "value": 0
+        },
+        {
+          "siteId": 54,
+          "value": 1
+        },
+        {
+          "siteId": 55,
+          "value": 2
+        },
+        {
+          "siteId": 56,
+          "value": 3
+        },
+        {
+          "siteId": 57,
+          "value": 4
+        },
+        {
+          "siteId": 58,
+          "value": 5
+        },
+        {
+          "siteId": 59,
+          "value": 6
+        },
+        {
+          "siteId": 60,
+          "value": 7
+        },
+        {
+          "siteId": 61,
+          "value": 8
+        },
+        {
+          "siteId": 62,
+          "value": 9
+        },
+        {
+          "siteId": 63,
+          "value": 10
+        }
+      ],
+      "outcomes": [
+        {
+          "siteId": 16,
+          "label": "Victory",
+          "siteLabel": "Victory!",
+          "isVictory": true
+        },
+        {
+          "siteId": 18,
+          "label": "Defeated: out of health",
+          "siteLabel": "I was defeated by losing my last health point.",
+          "isVictory": false
+        },
+        {
+          "siteId": 17,
+          "label": "Defeated: out of time",
+          "siteLabel": "I was defeated by running out of time.",
+          "isVictory": false
+        }
+      ],
+      "boxHeroes": [
+        47,
+        46,
+        48,
+        50,
+        49
+      ],
+      "enemies": [
+        {
+          "name": "The Hunter",
+          "group": "The Villagers",
+          "health": 7,
+          "boss": true
+        },
+        {
+          "name": "Cauldron Chef",
+          "group": "The Villagers",
+          "health": 6,
+          "boss": true
+        },
+        {
+          "name": "The Scout",
+          "group": "The Villagers",
+          "health": 7,
+          "boss": true
+        },
+        {
+          "name": "The Captain",
+          "group": "The Villagers",
+          "health": 7,
+          "boss": true
+        },
+        {
+          "name": "Sand Witch",
+          "group": "Enemies",
+          "health": 7,
+          "attack": 0
+        },
+        {
+          "name": "Vengeful Fairy",
+          "group": "Enemies",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Gob (Goblin Mob)",
+          "group": "Enemies",
+          "health": 9,
+          "attack": 1
+        },
+        {
+          "name": "Weevil Dee",
+          "group": "Enemies",
+          "health": 6,
+          "attack": 1
+        },
+        {
+          "name": "Weevil Dum",
+          "group": "Enemies",
+          "health": 6,
+          "attack": 1
+        },
+        {
+          "name": "Crawling Vines",
+          "group": "Enemies",
+          "health": 5,
+          "attack": 2
+        },
+        {
+          "name": "Dreamweaver",
+          "group": "Enemies",
+          "attack": 2
+        },
+        {
+          "name": "Rave Troll",
+          "group": "Enemies",
+          "health": 20,
+          "attack": 1
+        },
+        {
+          "name": "Molten Spirit",
+          "group": "Enemies",
+          "health": 5,
+          "attack": 2
+        },
+        {
+          "name": "Vampire Nesting Doll",
+          "group": "Enemies",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Walter Wight",
+          "group": "Enemies",
+          "health": 6,
+          "attack": 1
+        },
+        {
+          "name": "Three Goblins in a Trench Coat",
+          "group": "Enemies",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Swarm of Bats",
+          "group": "Enemies",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Fladnag the Beige",
+          "group": "Enemies",
+          "health": 6,
+          "attack": 1
+        },
+        {
+          "name": "Beast Hunter",
+          "group": "Enemies",
+          "health": 7,
+          "attack": 6
+        },
+        {
+          "name": "Memento Moray",
+          "group": "Enemies",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Platypuss in Boots",
+          "group": "Enemies",
+          "health": 5,
+          "attack": 1
+        },
+        {
+          "name": "Squib!",
+          "group": "Enemies",
+          "health": 5,
+          "attack": 2
+        },
+        {
+          "name": "Ravenous Dwarf",
+          "group": "Enemies",
+          "health": 5,
+          "attack": 1
+        },
+        {
+          "name": "Torchbearer",
+          "group": "Enemies",
+          "health": 5,
+          "attack": 2
+        },
+        {
+          "name": "Vortex Mirror",
+          "group": "Enemies",
+          "health": 5,
+          "attack": 2
+        },
+        {
+          "name": "Steve",
+          "group": "Enemies",
+          "health": 5,
+          "attack": 2
+        },
+        {
+          "name": "Mechrechaun",
+          "group": "Enemies",
+          "health": 5,
+          "attack": 2
+        },
+        {
+          "name": "Goblin",
+          "group": "Enemies",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Midknight",
+          "group": "Enemies",
+          "health": 5,
+          "attack": 2
+        },
+        {
+          "name": "Watchwoman",
+          "group": "Enemies",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Spellcaster",
+          "group": "Enemies",
+          "health": 4,
+          "attack": 1
+        }
+      ]
+    },
+    {
+      "slug": "nemesis",
+      "name": "Nemesis",
+      "bossLabel": "Boss",
+      "bosses": [
+        {
+          "siteId": 34,
+          "name": "Nemesis",
+          "siteName": "Nemesis"
+        }
+      ],
+      "ranks": [
+        {
+          "siteId": 68,
+          "value": 1
+        },
+        {
+          "siteId": 79,
+          "value": 2
+        },
+        {
+          "siteId": 80,
+          "value": 3
+        },
+        {
+          "siteId": 81,
+          "value": 4
+        }
+      ],
+      "outcomes": [
+        {
+          "siteId": 35,
+          "label": "Victory",
+          "siteLabel": "Victory!",
+          "isVictory": true
+        },
+        {
+          "siteId": 36,
+          "label": "Not enough objective points",
+          "siteLabel": "I did not collect enough objective points.",
+          "isVictory": false
+        }
+      ],
+      "boxHeroes": [
+        109,
+        98,
+        99,
+        100,
+        101,
+        103,
+        104,
+        105,
+        106,
+        110,
+        107,
+        108
+      ],
+      "enemies": [
+        {
+          "name": "Larva",
+          "health": 3,
+          "attackNote": "1 green die"
+        },
+        {
+          "name": "Creeper",
+          "health": 4,
+          "attackNote": "1 yellow + 1 green die"
+        },
+        {
+          "name": "Adult",
+          "health": 5,
+          "attackNote": "2 blue dice"
+        },
+        {
+          "name": "Breeder",
+          "health": 7,
+          "attackNote": "1 blue + 1 green die"
+        },
+        {
+          "name": "Queen",
+          "health": 8,
+          "attackNote": "1 purple + 1 blue + 1 yellow die",
+          "boss": true
+        }
+      ]
+    },
+    {
+      "slug": "tainted-grail",
+      "name": "Tainted Grail",
+      "bossLabel": "Boss",
+      "bosses": [
+        {
+          "siteId": 35,
+          "name": "Arthur",
+          "siteName": "Arthur"
+        },
+        {
+          "siteId": 36,
+          "name": "Doomwing",
+          "siteName": "Doomwing"
+        },
+        {
+          "siteId": 37,
+          "name": "Fore-Dweller",
+          "siteName": "Fore-Dweller"
+        },
+        {
+          "siteId": 38,
+          "name": "Majestic Wyrm",
+          "siteName": "Majestic Wyrm"
+        },
+        {
+          "siteId": 39,
+          "name": "Orphaned Heart",
+          "siteName": "Orphaned Heart"
+        },
+        {
+          "siteId": 40,
+          "name": "Wickerman",
+          "siteName": "Wickerman"
+        }
+      ],
+      "ranks": [
+        {
+          "siteId": 69,
+          "value": 1
+        },
+        {
+          "siteId": 70,
+          "value": 2
+        },
+        {
+          "siteId": 71,
+          "value": 3
+        },
+        {
+          "siteId": 72,
+          "value": 4
+        },
+        {
+          "siteId": 73,
+          "value": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "siteId": 29,
+          "label": "Victory",
+          "siteLabel": "Victory!",
+          "isVictory": true
+        },
+        {
+          "siteId": 30,
+          "label": "Defeated before boss",
+          "siteLabel": "I was defeated before reaching the boss encounter.",
+          "isVictory": false
+        },
+        {
+          "siteId": 31,
+          "label": "Defeated during boss",
+          "siteLabel": "I was defeated during the boss encounter.",
+          "isVictory": false
+        }
+      ],
+      "boxHeroes": [
+        82,
+        83,
+        73,
+        84,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81
+      ],
+      "enemies": [
+        {
+          "name": "Arthur",
+          "group": "Bosses",
+          "health": 8,
+          "attack": 2,
+          "boss": true
+        },
+        {
+          "name": "Doomwing",
+          "group": "Bosses",
+          "health": 6,
+          "attack": 2,
+          "boss": true
+        },
+        {
+          "name": "Fore-Dweller",
+          "group": "Bosses",
+          "health": 7,
+          "attack": 2,
+          "boss": true
+        },
+        {
+          "name": "Majestic Wyrm",
+          "group": "Bosses",
+          "health": 5,
+          "attack": 1,
+          "boss": true
+        },
+        {
+          "name": "Orphaned Heart",
+          "group": "Bosses",
+          "health": 9,
+          "attack": 2,
+          "boss": true
+        },
+        {
+          "name": "Wickerman",
+          "group": "Bosses",
+          "health": 4,
+          "attack": 2,
+          "boss": true
+        },
+        {
+          "name": "Stakeslinger",
+          "group": "Purple",
+          "health": 5,
+          "attack": 1
+        },
+        {
+          "name": "Warped One",
+          "group": "Purple",
+          "health": 5,
+          "attack": 1
+        },
+        {
+          "name": "Living Ice",
+          "group": "Purple",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Bean Chioch",
+          "group": "Purple",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Seeker",
+          "group": "Purple",
+          "health": 3,
+          "attack": 3
+        },
+        {
+          "name": "Abhartach",
+          "group": "Purple",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Fomorian Sentinel",
+          "group": "Purple",
+          "health": 5,
+          "attack": 1
+        },
+        {
+          "name": "Marupede",
+          "group": "Purple",
+          "health": 8,
+          "attack": 2
+        },
+        {
+          "name": "Fuathan",
+          "group": "Purple",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Wyrmclaimed Chariot",
+          "group": "Purple",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Jury of Peers",
+          "group": "Blue",
+          "health": 3,
+          "attack": 0
+        },
+        {
+          "name": "Morgaine's Handmaid",
+          "group": "Blue",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Renegade Troops",
+          "group": "Blue",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Pale Lady",
+          "group": "Blue",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Slick Fraudster",
+          "group": "Blue",
+          "health": 5,
+          "attack": 1
+        },
+        {
+          "name": "Hostile Agent",
+          "group": "Blue",
+          "health": 2,
+          "attack": 1
+        },
+        {
+          "name": "Resentful Priest",
+          "group": "Blue",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Press Gang",
+          "group": "Blue",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Drunken Knight",
+          "group": "Blue",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Silent Pilgrims",
+          "group": "Blue",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Huntmistress",
+          "group": "Gray",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Ironboned Sentry",
+          "group": "Gray",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Crazed Farmhand",
+          "group": "Gray",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Mad Warrior",
+          "group": "Gray",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Child of Morrigan",
+          "group": "Gray",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Rebel Knight",
+          "group": "Gray",
+          "health": 4,
+          "attack": 2
+        },
+        {
+          "name": "Archdruid",
+          "group": "Gray",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Knight Errant",
+          "group": "Gray",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Unchained Warbeast",
+          "group": "Gray",
+          "health": 6,
+          "attack": 2
+        },
+        {
+          "name": "Corrupted Druid",
+          "group": "Gray",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Selkie",
+          "group": "Green",
+          "health": 3,
+          "attack": 3
+        },
+        {
+          "name": "Hellpig",
+          "group": "Green",
+          "health": 4,
+          "attack": 1
+        },
+        {
+          "name": "Mulch Man",
+          "group": "Green",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Catling",
+          "group": "Green",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Tonguehead",
+          "group": "Green",
+          "health": 2,
+          "attack": 2
+        },
+        {
+          "name": "Spitslug",
+          "group": "Green",
+          "health": 3,
+          "attack": 3
+        },
+        {
+          "name": "Horned Warden",
+          "group": "Green",
+          "health": 5,
+          "attack": 1
+        },
+        {
+          "name": "Wyrdhog",
+          "group": "Green",
+          "health": 3,
+          "attack": 1
+        },
+        {
+          "name": "Gigelorum",
+          "group": "Green",
+          "health": 3,
+          "attack": 2
+        },
+        {
+          "name": "Wyrdbear",
+          "group": "Green",
+          "health": 2,
+          "attack": 1
+        }
+      ]
+    },
+    {
+      "slug": "etherfields",
+      "name": "Etherfields",
+      "bossLabel": "Boss",
+      "bosses": [
+        {
+          "siteId": 41,
+          "name": "Belshazar",
+          "siteName": "Belshazar"
+        },
+        {
+          "siteId": 42,
+          "name": "Box Knight",
+          "siteName": "Box Knight"
+        },
+        {
+          "siteId": 43,
+          "name": "Devil",
+          "siteName": "Devil"
+        },
+        {
+          "siteId": 44,
+          "name": "Funeral Witch",
+          "siteName": "Funteral Witch"
+        },
+        {
+          "siteId": 45,
+          "name": "Scarecrow",
+          "siteName": "Scarecrow"
+        },
+        {
+          "siteId": 46,
+          "name": "She-Wolf",
+          "siteName": "She-Wolf"
+        },
+        {
+          "siteId": 47,
+          "name": "Something Wicked",
+          "siteName": "Something Wicked"
+        },
+        {
+          "siteId": 48,
+          "name": "Sphinx",
+          "siteName": "Sphinx"
+        },
+        {
+          "siteId": 49,
+          "name": "Swamp Walker",
+          "siteName": "Swamp Walker"
+        },
+        {
+          "siteId": 50,
+          "name": "The Tormentor",
+          "siteName": "The Tormentor"
+        },
+        {
+          "siteId": 51,
+          "name": "Warden",
+          "siteName": "Warden"
+        }
+      ],
+      "ranks": [
+        {
+          "siteId": 74,
+          "value": 1
+        },
+        {
+          "siteId": 75,
+          "value": 2
+        },
+        {
+          "siteId": 76,
+          "value": 3
+        },
+        {
+          "siteId": 77,
+          "value": 4
+        },
+        {
+          "siteId": 78,
+          "value": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "siteId": 32,
+          "label": "Victory",
+          "siteLabel": "Victory!",
+          "isVictory": true
+        },
+        {
+          "siteId": 33,
+          "label": "Defeated before boss",
+          "siteLabel": "I was defeated before reaching the boss encounter.",
+          "isVictory": false
+        },
+        {
+          "siteId": 34,
+          "label": "Defeated during boss",
+          "siteLabel": "I was defeated during the boss encounter.",
+          "isVictory": false
+        }
+      ],
+      "boxHeroes": [
+        86,
+        92,
+        89,
+        95,
+        88,
+        94,
+        90,
+        96,
+        87,
+        93
+      ]
+    }
+  ],
+  "features": {
+    "cardEnemies": true
   }
- ],
- "heroes": [
-  {
-   "siteId": 1,
-   "name": "Astral Scout Raven",
-   "deck": "solar-sentinels"
-  },
-  {
-   "siteId": 2,
-   "name": "Beckett Sun-Forger",
-   "deck": "solar-sentinels",
-   "universal": true
-  },
-  {
-   "siteId": 3,
-   "name": "Gal'Had the Lancer",
-   "deck": "solar-sentinels",
-   "universal": true
-  },
-  {
-   "siteId": 4,
-   "name": "P.I.K.E Master Orlo",
-   "deck": "solar-sentinels"
-  },
-  {
-   "siteId": 5,
-   "name": "Stellar Blade Isolde",
-   "deck": "solar-sentinels",
-   "universal": true
-  },
-  {
-   "siteId": 6,
-   "name": "Valkyrie, Mk.7",
-   "deck": "solar-sentinels",
-   "universal": true
-  },
-  {
-   "siteId": 7,
-   "name": "Duster",
-   "deck": "too-many-bones"
-  },
-  {
-   "siteId": 8,
-   "name": "Figment",
-   "deck": "too-many-bones"
-  },
-  {
-   "siteId": 9,
-   "name": "Gasket",
-   "deck": "too-many-bones"
-  },
-  {
-   "siteId": 10,
-   "name": "Nugget",
-   "deck": "too-many-bones",
-   "universal": true
-  },
-  {
-   "siteId": 11,
-   "name": "Patches",
-   "deck": "too-many-bones"
-  },
-  {
-   "siteId": 12,
-   "name": "Riffle",
-   "deck": "too-many-bones",
-   "universal": true
-  },
-  {
-   "siteId": 13,
-   "name": "Aprilis",
-   "deck": "hoplomachus-victorum"
-  },
-  {
-   "siteId": 14,
-   "name": "Bingqing",
-   "deck": "hoplomachus-victorum"
-  },
-  {
-   "siteId": 15,
-   "name": "Decimus",
-   "deck": "hoplomachus-victorum",
-   "universal": true
-  },
-  {
-   "siteId": 16,
-   "name": "Krakenlance",
-   "deck": "hoplomachus-victorum"
-  },
-  {
-   "siteId": 17,
-   "name": "Nox",
-   "deck": "hoplomachus-victorum"
-  },
-  {
-   "siteId": 22,
-   "name": "Pandora",
-   "deck": "hoplomachus-victorum",
-   "universal": true
-  },
-  {
-   "siteId": 19,
-   "name": "Sea Strider",
-   "deck": "hoplomachus-victorum",
-   "universal": true
-  },
-  {
-   "siteId": 20,
-   "name": "Stygiana",
-   "deck": "hoplomachus-victorum",
-   "universal": true
-  },
-  {
-   "siteId": 18,
-   "name": "The Parthian",
-   "deck": "hoplomachus-victorum"
-  },
-  {
-   "siteId": 21,
-   "name": "Virago",
-   "deck": "hoplomachus-victorum"
-  },
-  {
-   "siteId": 51,
-   "name": "Bydra Graam",
-   "deck": "cloudspire"
-  },
-  {
-   "siteId": 52,
-   "name": "Captain Tinbeard",
-   "deck": "cloudspire"
-  },
-  {
-   "siteId": 53,
-   "name": "Echri",
-   "deck": "cloudspire"
-  },
-  {
-   "siteId": 54,
-   "name": "Fission",
-   "deck": "cloudspire"
-  },
-  {
-   "siteId": 55,
-   "name": "General Eko",
-   "deck": "cloudspire"
-  },
-  {
-   "siteId": 56,
-   "name": "Jaelana Nestor",
-   "deck": "cloudspire"
-  },
-  {
-   "siteId": 57,
-   "name": "Kram the Mighty",
-   "deck": "cloudspire"
-  },
-  {
-   "siteId": 58,
-   "name": "Netourut",
-   "deck": "cloudspire"
-  },
-  {
-   "siteId": 59,
-   "name": "Wyvankaye",
-   "deck": "cloudspire"
-  },
-  {
-   "siteId": 60,
-   "name": "Kroob",
-   "deck": "cloudspire",
-   "universal": true
-  },
-  {
-   "siteId": 65,
-   "name": "Londil",
-   "deck": "cloudspire",
-   "universal": true
-  },
-  {
-   "siteId": 64,
-   "name": "Flintlock",
-   "deck": "cloudspire",
-   "universal": true
-  },
-  {
-   "siteId": 61,
-   "name": "Lecheez",
-   "deck": "cloudspire",
-   "universal": true
-  },
-  {
-   "siteId": 62,
-   "name": "Lostomire",
-   "deck": "cloudspire",
-   "universal": true
-  },
-  {
-   "siteId": 63,
-   "name": "Slame",
-   "deck": "cloudspire",
-   "universal": true
-  },
-  {
-   "siteId": 27,
-   "name": "Bo Peep / The Flock",
-   "deck": "tanglewoods-red"
-  },
-  {
-   "siteId": 24,
-   "name": "Little Red / Big Red",
-   "deck": "tanglewoods-red"
-  },
-  {
-   "siteId": 26,
-   "name": "Piping Piper / Pied Piper",
-   "deck": "tanglewoods-red"
-  },
-  {
-   "siteId": 25,
-   "name": "The Marquis de Carabas / Puss in Boots",
-   "deck": "tanglewoods-red"
-  },
-  {
-   "siteId": 23,
-   "name": "Thumbelina / Maya",
-   "deck": "tanglewoods-red",
-   "universal": true
-  },
-  {
-   "siteId": 28,
-   "name": "Goldy / Lockes",
-   "deck": "tanglewoods-gold"
-  },
-  {
-   "siteId": 31,
-   "name": "Hansel / Gretel",
-   "deck": "tanglewoods-gold"
-  },
-  {
-   "siteId": 30,
-   "name": "Pinocchio",
-   "deck": "tanglewoods-gold"
-  },
-  {
-   "siteId": 29,
-   "name": "The Fool / The Flying Ship",
-   "deck": "tanglewoods-gold",
-   "universal": true
-  },
-  {
-   "siteId": 32,
-   "name": "The Prince / The Beast",
-   "deck": "tanglewoods-gold"
-  },
-  {
-   "siteId": 36,
-   "name": "Bubbly / Ennui",
-   "deck": "tanglewoods-white"
-  },
-  {
-   "siteId": 34,
-   "name": "Peckish / Reckless",
-   "deck": "tanglewoods-white"
-  },
-  {
-   "siteId": 33,
-   "name": "Snow White / The Fairest",
-   "deck": "tanglewoods-white",
-   "universal": true
-  },
-  {
-   "siteId": 35,
-   "name": "The Huntsman / Prince Charming",
-   "deck": "tanglewoods-white"
-  },
-  {
-   "siteId": 37,
-   "name": "Toil & Trouble / Shawn",
-   "deck": "tanglewoods-white"
-  },
-  {
-   "siteId": 45,
-   "name": "Doctor Know-All / Crabb",
-   "deck": "tanglewoods-baba-yaga",
-   "guestIn": [
-    "tanglewoods-red",
-    "tanglewoods-gold",
-    "tanglewoods-white"
-   ]
-  },
-  {
-   "siteId": 44,
-   "name": "Golden Harp / Golden Goose",
-   "deck": "tanglewoods-baba-yaga",
-   "guestIn": [
-    "tanglewoods-red",
-    "tanglewoods-gold",
-    "tanglewoods-white"
-   ]
-  },
-  {
-   "siteId": 41,
-   "name": "Jack my Hedgehog",
-   "deck": "tanglewoods-baba-yaga",
-   "universal": true
-  },
-  {
-   "siteId": 38,
-   "name": "Rapunzel",
-   "deck": "tanglewoods-baba-yaga",
-   "guestIn": [
-    "tanglewoods-red",
-    "tanglewoods-gold",
-    "tanglewoods-white"
-   ]
-  },
-  {
-   "siteId": 40,
-   "name": "Sister of Ravens",
-   "deck": "tanglewoods-baba-yaga",
-   "universal": true
-  },
-  {
-   "siteId": 42,
-   "name": "The Frog Prince",
-   "deck": "tanglewoods-baba-yaga",
-   "universal": true
-  },
-  {
-   "siteId": 39,
-   "name": "The Giant",
-   "deck": "tanglewoods-baba-yaga",
-   "universal": true
-  },
-  {
-   "siteId": 43,
-   "name": "The Moonkeeper / The Mayor of Moontown",
-   "deck": "tanglewoods-baba-yaga",
-   "guestIn": [
-    "tanglewoods-red",
-    "tanglewoods-gold",
-    "tanglewoods-white"
-   ]
-  },
-  {
-   "siteId": 47,
-   "name": "Beast",
-   "deck": "tanglewoods-rose"
-  },
-  {
-   "siteId": 46,
-   "name": "Beauty",
-   "deck": "tanglewoods-rose"
-  },
-  {
-   "siteId": 48,
-   "name": "Genie",
-   "deck": "tanglewoods-rose"
-  },
-  {
-   "siteId": 50,
-   "name": "The Blue Fairy / The Fairy with the Turquoise Hair",
-   "deck": "tanglewoods-rose",
-   "universal": true
-  },
-  {
-   "siteId": 49,
-   "name": "The Mermaid",
-   "deck": "tanglewoods-rose"
-  },
-  {
-   "siteId": 109,
-   "name": "Android",
-   "deck": "nemesis",
-   "universal": true
-  },
-  {
-   "siteId": 98,
-   "name": "Bounty Hunter",
-   "deck": "nemesis"
-  },
-  {
-   "siteId": 99,
-   "name": "Captain",
-   "deck": "nemesis"
-  },
-  {
-   "siteId": 69,
-   "name": "Catonaut",
-   "deck": "nemesis",
-   "universal": true
-  },
-  {
-   "siteId": 100,
-   "name": "CEO",
-   "deck": "nemesis"
-  },
-  {
-   "siteId": 101,
-   "name": "Convict",
-   "deck": "nemesis"
-  },
-  {
-   "siteId": 102,
-   "name": "Laika",
-   "deck": "nemesis",
-   "universal": true
-  },
-  {
-   "siteId": 103,
-   "name": "Mechanic",
-   "deck": "nemesis"
-  },
-  {
-   "siteId": 104,
-   "name": "Medic",
-   "deck": "nemesis"
-  },
-  {
-   "siteId": 105,
-   "name": "Pilot",
-   "deck": "nemesis"
-  },
-  {
-   "siteId": 106,
-   "name": "Psychologist",
-   "deck": "nemesis"
-  },
-  {
-   "siteId": 110,
-   "name": "Scientist",
-   "deck": "nemesis",
-   "universal": true
-  },
-  {
-   "siteId": 107,
-   "name": "Scout",
-   "deck": "nemesis"
-  },
-  {
-   "siteId": 108,
-   "name": "Soldier",
-   "deck": "nemesis"
-  },
-  {
-   "siteId": 82,
-   "name": "Ailei",
-   "deck": "tainted-grail",
-   "universal": true
-  },
-  {
-   "siteId": 83,
-   "name": "Arev",
-   "deck": "tainted-grail",
-   "universal": true
-  },
-  {
-   "siteId": 73,
-   "name": "Beor",
-   "deck": "tainted-grail"
-  },
-  {
-   "siteId": 84,
-   "name": "Caolin",
-   "deck": "tainted-grail",
-   "universal": true
-  },
-  {
-   "siteId": 74,
-   "name": "Dagan",
-   "deck": "tainted-grail"
-  },
-  {
-   "siteId": 75,
-   "name": "Duana",
-   "deck": "tainted-grail"
-  },
-  {
-   "siteId": 76,
-   "name": "Fyuul",
-   "deck": "tainted-grail"
-  },
-  {
-   "siteId": 77,
-   "name": "Mabd",
-   "deck": "tainted-grail"
-  },
-  {
-   "siteId": 78,
-   "name": "Maggot",
-   "deck": "tainted-grail"
-  },
-  {
-   "siteId": 79,
-   "name": "Naazer",
-   "deck": "tainted-grail"
-  },
-  {
-   "siteId": 85,
-   "name": "Niamh",
-   "deck": "tainted-grail",
-   "universal": true
-  },
-  {
-   "siteId": 80,
-   "name": "Sloan",
-   "deck": "tainted-grail"
-  },
-  {
-   "siteId": 81,
-   "name": "Thebalt",
-   "deck": "tainted-grail"
-  },
-  {
-   "siteId": 86,
-   "name": "Free Spirit",
-   "deck": "etherfields"
-  },
-  {
-   "siteId": 92,
-   "name": "Free Spirit - Lucid",
-   "deck": "etherfields"
-  },
-  {
-   "siteId": 89,
-   "name": "Gambler",
-   "deck": "etherfields",
-   "universal": true
-  },
-  {
-   "siteId": 95,
-   "name": "Gambler - Lucid",
-   "deck": "etherfields",
-   "universal": true
-  },
-  {
-   "siteId": 88,
-   "name": "Reaper",
-   "deck": "etherfields"
-  },
-  {
-   "siteId": 94,
-   "name": "Reaper - Lucid",
-   "deck": "etherfields"
-  },
-  {
-   "siteId": 90,
-   "name": "Specialist",
-   "deck": "etherfields",
-   "universal": true
-  },
-  {
-   "siteId": 96,
-   "name": "Specialist - Lucid",
-   "deck": "etherfields",
-   "universal": true
-  },
-  {
-   "siteId": 91,
-   "name": "Thorn Knight",
-   "deck": "etherfields",
-   "universal": true
-  },
-  {
-   "siteId": 97,
-   "name": "Thorn Knight - Lucid",
-   "deck": "etherfields",
-   "universal": true
-  },
-  {
-   "siteId": 87,
-   "name": "Tough Guy",
-   "deck": "etherfields"
-  },
-  {
-   "siteId": 93,
-   "name": "Tough Guy - Lucid",
-   "deck": "etherfields"
-  },
-  {
-   "siteId": 67,
-   "name": "Jack",
-   "universal": true
-  },
-  {
-   "siteId": 68,
-   "name": "Stilts",
-   "universal": true
-  },
-  {
-   "siteId": 66,
-   "name": "Tink",
-   "universal": true
-  },
-  {
-   "siteId": 71,
-   "name": "Godfather Death / Old Rinkrank",
-   "universal": true
-  },
-  {
-   "siteId": 70,
-   "name": "Mischievous Fairy / Malevolent Fairy",
-   "universal": true
-  },
-  {
-   "siteId": 72,
-   "name": "Wicked Witch",
-   "universal": true
-  }
- ],
- "decks": [
-  {
-   "slug": "solar-sentinels",
-   "name": "Solar Sentinels",
-   "bossLabel": "Boss",
-   "bosses": [
-    {
-     "siteId": 1,
-     "name": "The Alpha Beast",
-     "siteName": "The Alpha Beast"
-    },
-    {
-     "siteId": 2,
-     "name": "The Hive Monarch",
-     "siteName": "The Hive Monarch"
-    },
-    {
-     "siteId": 3,
-     "name": "The Mother Spore",
-     "siteName": "The Mother Spore"
-    },
-    {
-     "siteId": 4,
-     "name": "The Swarm Lord",
-     "siteName": "The Swarm Lord"
-    },
-    {
-     "siteId": 5,
-     "name": "Unknown",
-     "siteName": "unknown"
-    }
-   ],
-   "ranks": [
-    {
-     "siteId": 1,
-     "value": 1
-    },
-    {
-     "siteId": 2,
-     "value": 2
-    },
-    {
-     "siteId": 3,
-     "value": 3
-    },
-    {
-     "siteId": 4,
-     "value": 4
-    },
-    {
-     "siteId": 5,
-     "value": 5
-    },
-    {
-     "siteId": 87,
-     "value": 6
-    }
-   ],
-   "outcomes": [
-    {
-     "siteId": 1,
-     "label": "Victory",
-     "siteLabel": "Victory!",
-     "isVictory": true
-    },
-    {
-     "siteId": 2,
-     "label": "Defeated before boss",
-     "siteLabel": "I was defeated before reaching the boss encounter.",
-     "isVictory": false
-    },
-    {
-     "siteId": 3,
-     "label": "Defeated during boss",
-     "siteLabel": "I was defeated during the boss encounter.",
-     "isVictory": false
-    }
-   ],
-   "boxHeroes": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6
-   ]
-  },
-  {
-   "slug": "too-many-bones",
-   "name": "Too Many Bones",
-   "bossLabel": "Tyrant",
-   "bosses": [
-    {
-     "siteId": 8,
-     "name": "Barnacle",
-     "siteName": "Barnacle"
-    },
-    {
-     "siteId": 9,
-     "name": "Cinder",
-     "siteName": "Cinder"
-    },
-    {
-     "siteId": 6,
-     "name": "Nom",
-     "siteName": "Nom"
-    },
-    {
-     "siteId": 7,
-     "name": "Oxide",
-     "siteName": "Oxide"
-    }
-   ],
-   "ranks": [
-    {
-     "siteId": 6,
-     "value": 1
-    },
-    {
-     "siteId": 7,
-     "value": 2
-    },
-    {
-     "siteId": 8,
-     "value": 3
-    },
-    {
-     "siteId": 9,
-     "value": 4
-    },
-    {
-     "siteId": 10,
-     "value": 5
-    }
-   ],
-   "outcomes": [
-    {
-     "siteId": 4,
-     "label": "Victory",
-     "siteLabel": "Victory!",
-     "isVictory": true
-    },
-    {
-     "siteId": 6,
-     "label": "Defeated before boss",
-     "siteLabel": "I was defeated before reaching the boss encounter.",
-     "isVictory": false
-    },
-    {
-     "siteId": 5,
-     "label": "Defeated during boss",
-     "siteLabel": "I was defeated during the boss encounter.",
-     "isVictory": false
-    }
-   ],
-   "boxHeroes": [
-    7,
-    8,
-    9,
-    10,
-    11
-   ]
-  },
-  {
-   "slug": "hoplomachus-victorum",
-   "name": "Hoplomachus: Victorum",
-   "bossLabel": "Scion",
-   "bosses": [
-    {
-     "siteId": 10,
-     "name": "Camazotz",
-     "siteName": "Camazotz"
-    },
-    {
-     "siteId": 11,
-     "name": "Coalemus",
-     "siteName": "Coalemus"
-    },
-    {
-     "siteId": 12,
-     "name": "Div-e Sepid",
-     "siteName": "Div-e Sepid"
-    },
-    {
-     "siteId": 13,
-     "name": "Hydra",
-     "siteName": "Hydra"
-    },
-    {
-     "siteId": 14,
-     "name": "Itzam Cab Ain",
-     "siteName": "Itzam Cab Ain"
-    },
-    {
-     "siteId": 15,
-     "name": "Kalliope",
-     "siteName": "Kalliope"
-    },
-    {
-     "siteId": 16,
-     "name": "Pluto",
-     "siteName": "Pluto"
-    },
-    {
-     "siteId": 17,
-     "name": "Taotie",
-     "siteName": "Taotie"
-    },
-    {
-     "siteId": 18,
-     "name": "Zahkak",
-     "siteName": "Zahkak"
-    }
-   ],
-   "ranks": [
-    {
-     "siteId": 11,
-     "value": 1
-    },
-    {
-     "siteId": 12,
-     "value": 2
-    },
-    {
-     "siteId": 13,
-     "value": 3
-    },
-    {
-     "siteId": 14,
-     "value": 4
-    },
-    {
-     "siteId": 15,
-     "value": 5
-    }
-   ],
-   "outcomes": [
-    {
-     "siteId": 7,
-     "label": "Victory",
-     "siteLabel": "Victory!",
-     "isVictory": true
-    },
-    {
-     "siteId": 8,
-     "label": "Defeated before boss",
-     "siteLabel": "I was defeated before reaching the boss encounter.",
-     "isVictory": false
-    },
-    {
-     "siteId": 9,
-     "label": "Defeated during boss",
-     "siteLabel": "I was defeated during the boss encounter.",
-     "isVictory": false
-    }
-   ],
-   "boxHeroes": [
-    13,
-    14,
-    15,
-    16,
-    17,
-    19,
-    20,
-    18,
-    21
-   ]
-  },
-  {
-   "slug": "cloudspire",
-   "name": "Cloudspire",
-   "bossLabel": "Boss",
-   "bosses": [
-    {
-     "siteId": 25,
-     "name": "Grafted Bydra Graam",
-     "siteName": "Grafted Bydra Graam"
-    },
-    {
-     "siteId": 26,
-     "name": "Grafted Captain Tinbeard",
-     "siteName": "Grafted Captain Tinbeard"
-    },
-    {
-     "siteId": 27,
-     "name": "Grafted Echri",
-     "siteName": "Grafted Echri"
-    },
-    {
-     "siteId": 28,
-     "name": "Grafted Fission",
-     "siteName": "Grafted Fission"
-    },
-    {
-     "siteId": 29,
-     "name": "Grafted General Eko",
-     "siteName": "Grafted General Eko"
-    },
-    {
-     "siteId": 30,
-     "name": "Grafted Jaelana Nestor",
-     "siteName": "Grafted Jaelana Nestor"
-    },
-    {
-     "siteId": 31,
-     "name": "Grafted Kram the Mighty",
-     "siteName": "Grafted Kram the Mighty"
-    },
-    {
-     "siteId": 32,
-     "name": "Grafted Netourut",
-     "siteName": "Grafted Netourut"
-    },
-    {
-     "siteId": 33,
-     "name": "Grafted Wyvankaye",
-     "siteName": "Grafted Wyvankaye"
-    }
-   ],
-   "ranks": [
-    {
-     "siteId": 64,
-     "value": 1
-    },
-    {
-     "siteId": 65,
-     "value": 2
-    },
-    {
-     "siteId": 66,
-     "value": 3
-    },
-    {
-     "siteId": 67,
-     "value": 4
-    }
-   ],
-   "outcomes": [
-    {
-     "siteId": 26,
-     "label": "Victory",
-     "siteLabel": "Victory!",
-     "isVictory": true
-    },
-    {
-     "siteId": 27,
-     "label": "Defeated before final boss",
-     "siteLabel": "I was defeated before the final boss was activated.",
-     "isVictory": false
-    },
-    {
-     "siteId": 28,
-     "label": "Defeated after final boss activated",
-     "siteLabel": "I was defeated after the final boss was activated.",
-     "isVictory": false
-    }
-   ],
-   "boxHeroes": [
-    51,
-    52,
-    53,
-    54,
-    55,
-    56,
-    57,
-    58,
-    59,
-    60,
-    61,
-    62,
-    63
-   ]
-  },
-  {
-   "slug": "tanglewoods-red",
-   "name": "Tanglewoods: Red",
-   "bossLabel": "Boss",
-   "bosses": [
-    {
-     "siteId": 19,
-     "name": "Big Bad Wolf",
-     "siteName": "Big Bad Wolf"
-    },
-    {
-     "siteId": 20,
-     "name": "Bigger, Badder Wolf",
-     "siteName": "Bigger, Badder Wolf"
-    }
-   ],
-   "ranks": [
-    {
-     "siteId": 16,
-     "value": 0
-    },
-    {
-     "siteId": 17,
-     "value": 1
-    },
-    {
-     "siteId": 18,
-     "value": 2
-    },
-    {
-     "siteId": 19,
-     "value": 3
-    },
-    {
-     "siteId": 20,
-     "value": 4
-    },
-    {
-     "siteId": 21,
-     "value": 5
-    },
-    {
-     "siteId": 22,
-     "value": 6
-    },
-    {
-     "siteId": 23,
-     "value": 7
-    },
-    {
-     "siteId": 24,
-     "value": 8
-    },
-    {
-     "siteId": 25,
-     "value": 9
-    },
-    {
-     "siteId": 26,
-     "value": 10
-    }
-   ],
-   "outcomes": [
-    {
-     "siteId": 10,
-     "label": "Victory",
-     "siteLabel": "Victory!",
-     "isVictory": true
-    },
-    {
-     "siteId": 12,
-     "label": "Defeated before boss",
-     "siteLabel": "I was defeated before reaching the boss encounter.",
-     "isVictory": false
-    },
-    {
-     "siteId": 11,
-     "label": "Defeated during boss",
-     "siteLabel": "I was defeated during the boss encounter.",
-     "isVictory": false
-    }
-   ],
-   "boxHeroes": [
-    27,
-    24,
-    26,
-    25,
-    23
-   ]
-  },
-  {
-   "slug": "tanglewoods-gold",
-   "name": "Tanglewoods: Gold",
-   "bossLabel": "Boss",
-   "bosses": [
-    {
-     "siteId": 21,
-     "name": "The Three Bears",
-     "siteName": "The Three Bears"
-    }
-   ],
-   "ranks": [
-    {
-     "siteId": 27,
-     "value": 0
-    },
-    {
-     "siteId": 28,
-     "value": 1
-    },
-    {
-     "siteId": 29,
-     "value": 2
-    },
-    {
-     "siteId": 30,
-     "value": 3
-    },
-    {
-     "siteId": 31,
-     "value": 4
-    },
-    {
-     "siteId": 32,
-     "value": 5
-    },
-    {
-     "siteId": 33,
-     "value": 6
-    },
-    {
-     "siteId": 34,
-     "value": 7
-    },
-    {
-     "siteId": 35,
-     "value": 8
-    },
-    {
-     "siteId": 36,
-     "value": 9
-    },
-    {
-     "siteId": 37,
-     "value": 10
-    }
-   ],
-   "outcomes": [
-    {
-     "siteId": 13,
-     "label": "Victory",
-     "siteLabel": "Victory!",
-     "isVictory": true
-    },
-    {
-     "siteId": 14,
-     "label": "Defeated before the Three Bears",
-     "siteLabel": "I was defeated before defeating the Three Bears.",
-     "isVictory": false
-    },
-    {
-     "siteId": 15,
-     "label": "Defeated facing the Three Bears",
-     "siteLabel": "I was defeated while facing at least on of the Three Bears.",
-     "isVictory": false
-    }
-   ],
-   "boxHeroes": [
-    28,
-    31,
-    30,
-    29,
-    32
-   ]
-  },
-  {
-   "slug": "tanglewoods-white",
-   "name": "Tanglewoods: White",
-   "bossLabel": "Boss",
-   "bosses": [
-    {
-     "siteId": 22,
-     "name": "The Evil Stepmother",
-     "siteName": "The Evil Stepmother"
-    }
-   ],
-   "ranks": [
-    {
-     "siteId": 38,
-     "value": 0
-    },
-    {
-     "siteId": 39,
-     "value": 1
-    },
-    {
-     "siteId": 40,
-     "value": 2
-    },
-    {
-     "siteId": 41,
-     "value": 3
-    },
-    {
-     "siteId": 42,
-     "value": 4
-    },
-    {
-     "siteId": 43,
-     "value": 5
-    },
-    {
-     "siteId": 44,
-     "value": 6
-    },
-    {
-     "siteId": 45,
-     "value": 7
-    },
-    {
-     "siteId": 46,
-     "value": 8
-    },
-    {
-     "siteId": 47,
-     "value": 9
-    },
-    {
-     "siteId": 48,
-     "value": 10
-    }
-   ],
-   "outcomes": [
-    {
-     "siteId": 19,
-     "label": "Victory",
-     "siteLabel": "Victory!",
-     "isVictory": true
-    },
-    {
-     "siteId": 20,
-     "label": "Defeated before the castle",
-     "siteLabel": "I was defeated before reaching the castle.",
-     "isVictory": false
-    },
-    {
-     "siteId": 21,
-     "label": "Defeated fighting a castle boss",
-     "siteLabel": "I was defeated while fighting a castle boss.",
-     "isVictory": false
-    }
-   ],
-   "boxHeroes": [
-    36,
-    34,
-    33,
-    35,
-    37
-   ]
-  },
-  {
-   "slug": "tanglewoods-baba-yaga",
-   "name": "Tanglewoods: Baba Yaga",
-   "bossLabel": "Boss",
-   "bosses": [
-    {
-     "siteId": 23,
-     "name": "Baba Yaga",
-     "siteName": "Baba Yaga"
-    }
-   ],
-   "ranks": [
-    {
-     "siteId": 49,
-     "value": 1
-    },
-    {
-     "siteId": 50,
-     "value": 2
-    },
-    {
-     "siteId": 51,
-     "value": 3
-    },
-    {
-     "siteId": 52,
-     "value": 4
-    }
-   ],
-   "outcomes": [
-    {
-     "siteId": 22,
-     "label": "Victory",
-     "siteLabel": "Victory!",
-     "isVictory": true
-    },
-    {
-     "siteId": 23,
-     "label": "Defeated before campaign bosses",
-     "siteLabel": "I was defeated before reaching the campaign boss fights.",
-     "isVictory": false
-    },
-    {
-     "siteId": 24,
-     "label": "Defeated by the Chicken House",
-     "siteLabel": "I was defeated during the Chicken House boss fight.",
-     "isVictory": false
-    },
-    {
-     "siteId": 25,
-     "label": "Defeated by Baba Yaga",
-     "siteLabel": "I was defeated during the Baba Yaga boss fight.",
-     "isVictory": false
-    }
-   ],
-   "boxHeroes": [
-    45,
-    44,
-    41,
-    38,
-    40,
-    42,
-    39,
-    43
-   ]
-  },
-  {
-   "slug": "tanglewoods-rose",
-   "name": "Tanglewoods: Rose",
-   "bossLabel": "Boss",
-   "bosses": [
-    {
-     "siteId": 24,
-     "name": "The Villagers",
-     "siteName": "The Villagers"
-    }
-   ],
-   "ranks": [
-    {
-     "siteId": 53,
-     "value": 0
-    },
-    {
-     "siteId": 54,
-     "value": 1
-    },
-    {
-     "siteId": 55,
-     "value": 2
-    },
-    {
-     "siteId": 56,
-     "value": 3
-    },
-    {
-     "siteId": 57,
-     "value": 4
-    },
-    {
-     "siteId": 58,
-     "value": 5
-    },
-    {
-     "siteId": 59,
-     "value": 6
-    },
-    {
-     "siteId": 60,
-     "value": 7
-    },
-    {
-     "siteId": 61,
-     "value": 8
-    },
-    {
-     "siteId": 62,
-     "value": 9
-    },
-    {
-     "siteId": 63,
-     "value": 10
-    }
-   ],
-   "outcomes": [
-    {
-     "siteId": 16,
-     "label": "Victory",
-     "siteLabel": "Victory!",
-     "isVictory": true
-    },
-    {
-     "siteId": 18,
-     "label": "Defeated: out of health",
-     "siteLabel": "I was defeated by losing my last health point.",
-     "isVictory": false
-    },
-    {
-     "siteId": 17,
-     "label": "Defeated: out of time",
-     "siteLabel": "I was defeated by running out of time.",
-     "isVictory": false
-    }
-   ],
-   "boxHeroes": [
-    47,
-    46,
-    48,
-    50,
-    49
-   ]
-  },
-  {
-   "slug": "nemesis",
-   "name": "Nemesis",
-   "bossLabel": "Boss",
-   "bosses": [
-    {
-     "siteId": 34,
-     "name": "Nemesis",
-     "siteName": "Nemesis"
-    }
-   ],
-   "ranks": [
-    {
-     "siteId": 68,
-     "value": 1
-    },
-    {
-     "siteId": 79,
-     "value": 2
-    },
-    {
-     "siteId": 80,
-     "value": 3
-    },
-    {
-     "siteId": 81,
-     "value": 4
-    }
-   ],
-   "outcomes": [
-    {
-     "siteId": 35,
-     "label": "Victory",
-     "siteLabel": "Victory!",
-     "isVictory": true
-    },
-    {
-     "siteId": 36,
-     "label": "Not enough objective points",
-     "siteLabel": "I did not collect enough objective points.",
-     "isVictory": false
-    }
-   ],
-   "boxHeroes": [
-    109,
-    98,
-    99,
-    100,
-    101,
-    103,
-    104,
-    105,
-    106,
-    110,
-    107,
-    108
-   ]
-  },
-  {
-   "slug": "tainted-grail",
-   "name": "Tainted Grail",
-   "bossLabel": "Boss",
-   "bosses": [
-    {
-     "siteId": 35,
-     "name": "Arthur",
-     "siteName": "Arthur"
-    },
-    {
-     "siteId": 36,
-     "name": "Doomwing",
-     "siteName": "Doomwing"
-    },
-    {
-     "siteId": 37,
-     "name": "Fore-Dweller",
-     "siteName": "Fore-Dweller"
-    },
-    {
-     "siteId": 38,
-     "name": "Majestic Wyrm",
-     "siteName": "Majestic Wyrm"
-    },
-    {
-     "siteId": 39,
-     "name": "Orphaned Heart",
-     "siteName": "Orphaned Heart"
-    },
-    {
-     "siteId": 40,
-     "name": "Wickerman",
-     "siteName": "Wickerman"
-    }
-   ],
-   "ranks": [
-    {
-     "siteId": 69,
-     "value": 1
-    },
-    {
-     "siteId": 70,
-     "value": 2
-    },
-    {
-     "siteId": 71,
-     "value": 3
-    },
-    {
-     "siteId": 72,
-     "value": 4
-    },
-    {
-     "siteId": 73,
-     "value": 5
-    }
-   ],
-   "outcomes": [
-    {
-     "siteId": 29,
-     "label": "Victory",
-     "siteLabel": "Victory!",
-     "isVictory": true
-    },
-    {
-     "siteId": 30,
-     "label": "Defeated before boss",
-     "siteLabel": "I was defeated before reaching the boss encounter.",
-     "isVictory": false
-    },
-    {
-     "siteId": 31,
-     "label": "Defeated during boss",
-     "siteLabel": "I was defeated during the boss encounter.",
-     "isVictory": false
-    }
-   ],
-   "boxHeroes": [
-    82,
-    83,
-    73,
-    84,
-    74,
-    75,
-    76,
-    77,
-    78,
-    79,
-    80,
-    81
-   ]
-  },
-  {
-   "slug": "etherfields",
-   "name": "Etherfields",
-   "bossLabel": "Boss",
-   "bosses": [
-    {
-     "siteId": 41,
-     "name": "Belshazar",
-     "siteName": "Belshazar"
-    },
-    {
-     "siteId": 42,
-     "name": "Box Knight",
-     "siteName": "Box Knight"
-    },
-    {
-     "siteId": 43,
-     "name": "Devil",
-     "siteName": "Devil"
-    },
-    {
-     "siteId": 44,
-     "name": "Funeral Witch",
-     "siteName": "Funteral Witch"
-    },
-    {
-     "siteId": 45,
-     "name": "Scarecrow",
-     "siteName": "Scarecrow"
-    },
-    {
-     "siteId": 46,
-     "name": "She-Wolf",
-     "siteName": "She-Wolf"
-    },
-    {
-     "siteId": 47,
-     "name": "Something Wicked",
-     "siteName": "Something Wicked"
-    },
-    {
-     "siteId": 48,
-     "name": "Sphinx",
-     "siteName": "Sphinx"
-    },
-    {
-     "siteId": 49,
-     "name": "Swamp Walker",
-     "siteName": "Swamp Walker"
-    },
-    {
-     "siteId": 50,
-     "name": "The Tormentor",
-     "siteName": "The Tormentor"
-    },
-    {
-     "siteId": 51,
-     "name": "Warden",
-     "siteName": "Warden"
-    }
-   ],
-   "ranks": [
-    {
-     "siteId": 74,
-     "value": 1
-    },
-    {
-     "siteId": 75,
-     "value": 2
-    },
-    {
-     "siteId": 76,
-     "value": 3
-    },
-    {
-     "siteId": 77,
-     "value": 4
-    },
-    {
-     "siteId": 78,
-     "value": 5
-    }
-   ],
-   "outcomes": [
-    {
-     "siteId": 32,
-     "label": "Victory",
-     "siteLabel": "Victory!",
-     "isVictory": true
-    },
-    {
-     "siteId": 33,
-     "label": "Defeated before boss",
-     "siteLabel": "I was defeated before reaching the boss encounter.",
-     "isVictory": false
-    },
-    {
-     "siteId": 34,
-     "label": "Defeated during boss",
-     "siteLabel": "I was defeated during the boss encounter.",
-     "isVictory": false
-    }
-   ],
-   "boxHeroes": [
-    86,
-    92,
-    89,
-    95,
-    88,
-    94,
-    90,
-    96,
-    87,
-    93
-   ]
-  }
- ]
 }
